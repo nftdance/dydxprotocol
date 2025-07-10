@@ -4,7 +4,7 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/stats/types"
+	"github.com/nftdance/dydxprotocol/x/stats/types"
 )
 
 // GetParams returns the Params in state.

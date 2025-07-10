@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
 	"github.com/stretchr/testify/require"
 )
 

@@ -4,7 +4,7 @@ import (
 	dydx "github.com/dydxprotocol/slinky/providers/apis/dydx"
 	dydxtypes "github.com/dydxprotocol/slinky/providers/apis/dydx/types"
 	marketmaptypes "github.com/dydxprotocol/slinky/x/marketmap/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // Construct a MarketMap struct from a slice of MarketParams

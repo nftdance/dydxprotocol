@@ -7,7 +7,7 @@ import (
 	"cosmossdk.io/log"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/metrics"
+	"github.com/nftdance/dydxprotocol/lib/metrics"
 	gometrics "github.com/hashicorp/go-metrics"
 )
 

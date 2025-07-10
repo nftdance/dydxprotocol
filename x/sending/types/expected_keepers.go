@@ -6,8 +6,8 @@ import (
 	"math/rand"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/margin"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/lib/margin"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 type SubaccountsKeeper interface {

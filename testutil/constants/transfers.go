@@ -1,8 +1,8 @@
 package constants
 
 import (
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/x/sending/types"
 )
 
 var (

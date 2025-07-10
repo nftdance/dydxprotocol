@@ -3,8 +3,8 @@ package types
 import (
 	"cosmossdk.io/log"
 	"fmt"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/types"
-	libtime "github.com/dydxprotocol/v4-chain/protocol/lib/time"
+	"github.com/nftdance/dydxprotocol/daemons/types"
+	libtime "github.com/nftdance/dydxprotocol/lib/time"
 	"sync"
 	"time"
 )

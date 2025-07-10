@@ -5,14 +5,14 @@ import (
 	"testing"
 
 	"github.com/cometbft/cometbft/types"
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/util"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	feetierstypes "github.com/dydxprotocol/v4-chain/protocol/x/feetiers/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	testutil "github.com/nftdance/dydxprotocol/testutil/util"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	feetierstypes "github.com/nftdance/dydxprotocol/x/feetiers/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 	"github.com/stretchr/testify/require"
 )
 

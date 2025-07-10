@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	big_testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/big"
-	keepertest "github.com/dydxprotocol/v4-chain/protocol/testutil/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	big_testutil "github.com/nftdance/dydxprotocol/testutil/big"
+	keepertest "github.com/nftdance/dydxprotocol/testutil/keeper"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/lib"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 func BenchmarkGetSettlementPpmWithPerpetual(b *testing.B) {

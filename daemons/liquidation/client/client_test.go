@@ -7,14 +7,14 @@ import (
 	"testing"
 
 	"cosmossdk.io/log"
-	appflags "github.com/dydxprotocol/v4-chain/protocol/app/flags"
-	d_constants "github.com/dydxprotocol/v4-chain/protocol/daemons/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/flags"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/liquidation/client"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/appoptions"
-	daemontestutils "github.com/dydxprotocol/v4-chain/protocol/testutil/daemons"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/grpc"
+	appflags "github.com/nftdance/dydxprotocol/app/flags"
+	d_constants "github.com/nftdance/dydxprotocol/daemons/constants"
+	"github.com/nftdance/dydxprotocol/daemons/flags"
+	"github.com/nftdance/dydxprotocol/daemons/liquidation/client"
+	"github.com/nftdance/dydxprotocol/mocks"
+	"github.com/nftdance/dydxprotocol/testutil/appoptions"
+	daemontestutils "github.com/nftdance/dydxprotocol/testutil/daemons"
+	"github.com/nftdance/dydxprotocol/testutil/grpc"
 	"github.com/stretchr/testify/require"
 )
 

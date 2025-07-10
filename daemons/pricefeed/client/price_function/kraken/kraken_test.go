@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/price_function/kraken"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/price_function/testutil"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/daemons/pricefeed"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/price_function/kraken"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/price_function/testutil"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/daemons/pricefeed"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,14 +6,14 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 	"github.com/cosmos/cosmos-sdk/telemetry"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/flags"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/metrics"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	salib "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/lib"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/daemons/flags"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/lib/metrics"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
+	salib "github.com/nftdance/dydxprotocol/x/subaccounts/lib"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // SubTaskRunner provides an interface that encapsulates the liquidations daemon logic to gather and report

@@ -5,9 +5,9 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/x/blocktime/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/blocktime/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/x/blocktime/keeper"
+	"github.com/nftdance/dydxprotocol/x/blocktime/types"
 	"github.com/stretchr/testify/require"
 )
 

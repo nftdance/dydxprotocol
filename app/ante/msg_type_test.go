@@ -13,10 +13,10 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 
-	customante "github.com/dydxprotocol/v4-chain/protocol/app/ante"
-	appmsgs "github.com/dydxprotocol/v4-chain/protocol/app/msgs"
-	testante "github.com/dydxprotocol/v4-chain/protocol/testutil/ante"
-	testmsgs "github.com/dydxprotocol/v4-chain/protocol/testutil/msgs"
+	customante "github.com/nftdance/dydxprotocol/app/ante"
+	appmsgs "github.com/nftdance/dydxprotocol/app/msgs"
+	testante "github.com/nftdance/dydxprotocol/testutil/ante"
+	testmsgs "github.com/nftdance/dydxprotocol/testutil/msgs"
 
 	"github.com/stretchr/testify/require"
 )

@@ -3,9 +3,9 @@ package constants
 import (
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/util"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	testutil "github.com/nftdance/dydxprotocol/testutil/util"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/encoding"
-	"github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/encoding"
+	"github.com/nftdance/dydxprotocol/x/delaymsg/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

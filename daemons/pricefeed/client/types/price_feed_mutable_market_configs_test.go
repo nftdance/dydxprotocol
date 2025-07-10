@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/daemons/pricefeed"
+	"github.com/nftdance/dydxprotocol/testutil/daemons/pricefeed"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	prices_types "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
+	"github.com/nftdance/dydxprotocol/mocks"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	prices_types "github.com/nftdance/dydxprotocol/x/prices/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

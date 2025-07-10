@@ -1,8 +1,8 @@
 package types_test
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/x/stats/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/x/stats/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 	"time"

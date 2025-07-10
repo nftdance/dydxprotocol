@@ -5,8 +5,8 @@ import (
 
 	"cosmossdk.io/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/log"
-	"github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/types"
+	"github.com/nftdance/dydxprotocol/lib/log"
+	"github.com/nftdance/dydxprotocol/x/ratelimit/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

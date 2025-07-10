@@ -2,7 +2,7 @@ package process
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // MarketPriceDecoder is an interface for decoding market price transactions, This interface is responsible

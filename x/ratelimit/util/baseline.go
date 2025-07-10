@@ -3,8 +3,8 @@ package util
 import (
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/x/ratelimit/types"
 )
 
 // GetBaseline returns the current capacity baseline for the given limiter.

@@ -4,8 +4,8 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/x/delaymsg/types"
 )
 
 // newBlockMessageIdsStore creates a new prefix store for BlockMessageIds.

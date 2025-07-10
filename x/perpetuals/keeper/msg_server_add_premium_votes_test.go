@@ -6,10 +6,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	keepertest "github.com/dydxprotocol/v4-chain/protocol/testutil/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/keeper"
+	"github.com/nftdance/dydxprotocol/mocks"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	keepertest "github.com/nftdance/dydxprotocol/testutil/keeper"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/keeper"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

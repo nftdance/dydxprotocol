@@ -3,16 +3,16 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	keepertest "github.com/dydxprotocol/v4-chain/protocol/testutil/keeper"
-	perptest "github.com/dydxprotocol/v4-chain/protocol/testutil/perpetuals"
-	pricestest "github.com/dydxprotocol/v4-chain/protocol/testutil/prices"
-	perpkeeper "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	priceskeeper "github.com/dydxprotocol/v4-chain/protocol/x/prices/keeper"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	keepertest "github.com/nftdance/dydxprotocol/testutil/keeper"
+	perptest "github.com/nftdance/dydxprotocol/testutil/perpetuals"
+	pricestest "github.com/nftdance/dydxprotocol/testutil/prices"
+	perpkeeper "github.com/nftdance/dydxprotocol/x/perpetuals/keeper"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	priceskeeper "github.com/nftdance/dydxprotocol/x/prices/keeper"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 	"github.com/stretchr/testify/require"
 )
 

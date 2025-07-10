@@ -7,7 +7,7 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
+	"github.com/nftdance/dydxprotocol/x/revshare/types"
 )
 
 func (k msgServer) SetMarketMapperRevenueShare(

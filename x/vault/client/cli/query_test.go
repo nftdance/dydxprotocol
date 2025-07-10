@@ -10,9 +10,9 @@ import (
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/network"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/testutil/network"
+	"github.com/nftdance/dydxprotocol/x/vault/client/cli"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 // Prevent strconv unused error

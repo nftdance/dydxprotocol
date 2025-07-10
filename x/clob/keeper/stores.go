@@ -5,11 +5,11 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 
 	"cosmossdk.io/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
 )
 
 // GetLongTermOrderPlacementStore fetches a state store used for creating,

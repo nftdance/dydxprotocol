@@ -1,9 +1,9 @@
 package events
 
 import (
-	v1 "github.com/dydxprotocol/v4-chain/protocol/indexer/protocol/v1"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	v1 "github.com/nftdance/dydxprotocol/indexer/protocol/v1"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // NewUpdateClobPairEvent creates a UpdateClobPairEventV1

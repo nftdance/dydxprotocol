@@ -3,19 +3,19 @@ package simulation_test
 import (
 	"encoding/json"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	v4module "github.com/dydxprotocol/v4-chain/protocol/app/module"
+	v4module "github.com/nftdance/dydxprotocol/app/module"
 	"testing"
 
 	sdkmath "cosmossdk.io/math"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	testutil_rand "github.com/dydxprotocol/v4-chain/protocol/testutil/rand"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/sim_helpers"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/simulation"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	perpetualssimulation "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/simulation"
-	pricessimulation "github.com/dydxprotocol/v4-chain/protocol/x/prices/simulation"
+	testutil_rand "github.com/nftdance/dydxprotocol/testutil/rand"
+	"github.com/nftdance/dydxprotocol/testutil/sim_helpers"
+	"github.com/nftdance/dydxprotocol/x/clob/simulation"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
+	perpetualssimulation "github.com/nftdance/dydxprotocol/x/perpetuals/simulation"
+	pricessimulation "github.com/nftdance/dydxprotocol/x/prices/simulation"
 	"github.com/stretchr/testify/require"
 )
 

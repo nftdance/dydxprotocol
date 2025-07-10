@@ -8,10 +8,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/sim_helpers"
-	asstypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	"github.com/nftdance/dydxprotocol/testutil/sim_helpers"
+	asstypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // genSubaccountIdNumbers returns randomized slice of numbers to use for `Subaccount.SubaccountId.Number`.

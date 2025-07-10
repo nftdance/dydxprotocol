@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"testing"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/keeper"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/x/revshare/keeper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/x/revshare/types"
 )
 
 func TestSetMarketMapperRevenueShareDetailsForMarket(t *testing.T) {

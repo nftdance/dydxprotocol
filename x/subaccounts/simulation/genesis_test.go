@@ -3,7 +3,7 @@ package simulation_test
 import (
 	"encoding/json"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	v4module "github.com/dydxprotocol/v4-chain/protocol/app/module"
+	v4module "github.com/nftdance/dydxprotocol/app/module"
 	"testing"
 
 	sdkmath "cosmossdk.io/math"
@@ -12,11 +12,11 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	banksim "github.com/cosmos/cosmos-sdk/x/bank/simulation"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	testutil_rand "github.com/dydxprotocol/v4-chain/protocol/testutil/rand"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/sim_helpers"
-	asstypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/simulation"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	testutil_rand "github.com/nftdance/dydxprotocol/testutil/rand"
+	"github.com/nftdance/dydxprotocol/testutil/sim_helpers"
+	asstypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/simulation"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -12,14 +12,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	appflags "github.com/dydxprotocol/v4-chain/protocol/app/flags"
-	daemonflags "github.com/dydxprotocol/v4-chain/protocol/daemons/flags"
-	pricefeedtypes "github.com/dydxprotocol/v4-chain/protocol/daemons/server/types/pricefeed"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/slinky/client"
-	daemontypes "github.com/dydxprotocol/v4-chain/protocol/daemons/types"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/appoptions"
-	pricetypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	appflags "github.com/nftdance/dydxprotocol/app/flags"
+	daemonflags "github.com/nftdance/dydxprotocol/daemons/flags"
+	pricefeedtypes "github.com/nftdance/dydxprotocol/daemons/server/types/pricefeed"
+	"github.com/nftdance/dydxprotocol/daemons/slinky/client"
+	daemontypes "github.com/nftdance/dydxprotocol/daemons/types"
+	"github.com/nftdance/dydxprotocol/mocks"
+	"github.com/nftdance/dydxprotocol/testutil/appoptions"
+	pricetypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 func TestClient(t *testing.T) {

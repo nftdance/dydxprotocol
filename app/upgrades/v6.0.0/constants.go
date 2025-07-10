@@ -5,10 +5,10 @@ import (
 	slinkytypes "github.com/dydxprotocol/slinky/pkg/types"
 	marketmapmoduletypes "github.com/dydxprotocol/slinky/x/marketmap/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/app/upgrades"
-	accountplustypes "github.com/dydxprotocol/v4-chain/protocol/x/accountplus/types"
-	listingtypes "github.com/dydxprotocol/v4-chain/protocol/x/listing/types"
-	revsharetypes "github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
+	"github.com/nftdance/dydxprotocol/app/upgrades"
+	accountplustypes "github.com/nftdance/dydxprotocol/x/accountplus/types"
+	listingtypes "github.com/nftdance/dydxprotocol/x/listing/types"
+	revsharetypes "github.com/nftdance/dydxprotocol/x/revshare/types"
 )
 
 const (

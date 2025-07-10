@@ -2,7 +2,7 @@ package v_8_0
 
 import (
 	store "cosmossdk.io/store/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app/upgrades"
+	"github.com/nftdance/dydxprotocol/app/upgrades"
 )
 
 const (

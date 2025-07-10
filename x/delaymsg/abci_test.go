@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	sdktest "github.com/dydxprotocol/v4-chain/protocol/testutil/sdk"
-	"github.com/dydxprotocol/v4-chain/protocol/x/delaymsg"
-	"github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
+	"github.com/nftdance/dydxprotocol/mocks"
+	sdktest "github.com/nftdance/dydxprotocol/testutil/sdk"
+	"github.com/nftdance/dydxprotocol/x/delaymsg"
+	"github.com/nftdance/dydxprotocol/x/delaymsg/types"
 )
 
 func TestEndBlocker(t *testing.T) {

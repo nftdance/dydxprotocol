@@ -5,19 +5,19 @@ import (
 	"fmt"
 	"math/big"
 
-	listingtypes "github.com/dydxprotocol/v4-chain/protocol/x/listing/types"
+	listingtypes "github.com/nftdance/dydxprotocol/x/listing/types"
 
 	upgradetypes "cosmossdk.io/x/upgrade/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/slinky"
-	listingkeeper "github.com/dydxprotocol/v4-chain/protocol/x/listing/keeper"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	vaultkeeper "github.com/dydxprotocol/v4-chain/protocol/x/vault/keeper"
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/lib/slinky"
+	listingkeeper "github.com/nftdance/dydxprotocol/x/listing/keeper"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
+	vaultkeeper "github.com/nftdance/dydxprotocol/x/vault/keeper"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	"github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/mocks"
+	"github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 func TestStartStopNoop(t *testing.T) {

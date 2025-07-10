@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 	"github.com/stretchr/testify/require"
 )
 

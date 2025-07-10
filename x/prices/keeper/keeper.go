@@ -7,12 +7,12 @@ import (
 	storetypes "cosmossdk.io/store/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	pricefeedtypes "github.com/dydxprotocol/v4-chain/protocol/daemons/server/types/pricefeed"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/indexer_manager"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	libtime "github.com/dydxprotocol/v4-chain/protocol/lib/time"
-	streamingtypes "github.com/dydxprotocol/v4-chain/protocol/streaming/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricefeedtypes "github.com/nftdance/dydxprotocol/daemons/server/types/pricefeed"
+	"github.com/nftdance/dydxprotocol/indexer/indexer_manager"
+	"github.com/nftdance/dydxprotocol/lib"
+	libtime "github.com/nftdance/dydxprotocol/lib/time"
+	streamingtypes "github.com/nftdance/dydxprotocol/streaming/types"
+	"github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 type (

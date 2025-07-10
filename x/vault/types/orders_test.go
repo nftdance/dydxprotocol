@@ -4,8 +4,8 @@ import (
 	math "math"
 	"testing"
 
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,10 +6,10 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app/process"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/encoding"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/app/process"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/encoding"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -4,10 +4,10 @@ import (
 	"math"
 	"testing"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/x/accountplus"
+	"github.com/nftdance/dydxprotocol/x/accountplus/types"
 	"github.com/stretchr/testify/require"
 )
 

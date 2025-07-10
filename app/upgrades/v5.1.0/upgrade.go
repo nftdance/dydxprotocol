@@ -6,7 +6,7 @@ import (
 
 	upgradetypes "cosmossdk.io/x/upgrade/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 )
 
 func CreateUpgradeHandler(

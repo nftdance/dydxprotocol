@@ -11,11 +11,11 @@ import (
 	cometbfttypes "github.com/cometbft/cometbft/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	big_testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/big"
-	blocktimetypes "github.com/dydxprotocol/v4-chain/protocol/x/blocktime/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	big_testutil "github.com/nftdance/dydxprotocol/testutil/big"
+	blocktimetypes "github.com/nftdance/dydxprotocol/x/blocktime/types"
+	"github.com/nftdance/dydxprotocol/x/ratelimit/types"
 	"github.com/stretchr/testify/require"
 )
 

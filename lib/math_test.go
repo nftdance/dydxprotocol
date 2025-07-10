@@ -6,7 +6,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 	"github.com/stretchr/testify/require"
 )
 

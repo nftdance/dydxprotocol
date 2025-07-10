@@ -3,8 +3,8 @@ package e2e_test
 import (
 	"context"
 	abcitypes "github.com/cometbft/cometbft/abci/types"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	blocktime "github.com/dydxprotocol/v4-chain/protocol/x/blocktime/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	blocktime "github.com/nftdance/dydxprotocol/x/blocktime/types"
 	"github.com/stretchr/testify/require"
 	"sync"
 	"sync/atomic"

@@ -8,10 +8,10 @@ import (
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/network"
-	"github.com/dydxprotocol/v4-chain/protocol/x/affiliates/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/affiliates/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/network"
+	"github.com/nftdance/dydxprotocol/x/affiliates/client/cli"
+	"github.com/nftdance/dydxprotocol/x/affiliates/types"
 )
 
 // Prevent strconv unused error

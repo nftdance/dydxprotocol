@@ -6,9 +6,9 @@ import (
 	sdkmath "cosmossdk.io/math"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	keepertest "github.com/dydxprotocol/v4-chain/protocol/testutil/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	keepertest "github.com/nftdance/dydxprotocol/testutil/keeper"
+	"github.com/nftdance/dydxprotocol/x/bridge/types"
 	"github.com/stretchr/testify/require"
 )
 

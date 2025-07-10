@@ -1,11 +1,11 @@
 package types_test
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
 	"testing"
 	"time"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
 	"github.com/stretchr/testify/require"
 )
 

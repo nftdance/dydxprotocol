@@ -5,7 +5,7 @@ import (
 
 	marketmaptypes "github.com/dydxprotocol/slinky/x/marketmap/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
+	"github.com/nftdance/dydxprotocol/x/revshare/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

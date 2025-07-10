@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/x/assets/types"
 	"github.com/spf13/cobra"
 )
 

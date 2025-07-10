@@ -3,10 +3,10 @@
 package mocks
 
 import (
-	indexer_manager "github.com/dydxprotocol/v4-chain/protocol/indexer/indexer_manager"
+	indexer_manager "github.com/nftdance/dydxprotocol/indexer/indexer_manager"
 	mock "github.com/stretchr/testify/mock"
 
-	msgsender "github.com/dydxprotocol/v4-chain/protocol/indexer/msgsender"
+	msgsender "github.com/nftdance/dydxprotocol/indexer/msgsender"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

@@ -8,9 +8,9 @@ import (
 	"text/template"
 
 	tmos "github.com/cometbft/cometbft/libs/os"
-	daemonconstants "github.com/dydxprotocol/v4-chain/protocol/daemons/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
+	daemonconstants "github.com/nftdance/dydxprotocol/daemons/constants"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/constants"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
 	"github.com/pelletier/go-toml"
 )
 

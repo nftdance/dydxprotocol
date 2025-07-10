@@ -8,16 +8,16 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	appflags "github.com/dydxprotocol/v4-chain/protocol/app/flags"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/flags"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/api"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/handler"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/price_fetcher"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
-	daemontypes "github.com/dydxprotocol/v4-chain/protocol/daemons/types"
-	libtime "github.com/dydxprotocol/v4-chain/protocol/lib/time"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	appflags "github.com/nftdance/dydxprotocol/app/flags"
+	"github.com/nftdance/dydxprotocol/daemons/flags"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/api"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/constants"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/handler"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/price_fetcher"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
+	daemontypes "github.com/nftdance/dydxprotocol/daemons/types"
+	libtime "github.com/nftdance/dydxprotocol/lib/time"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // Client encapsulates the logic for executing and cleanly stopping all subtasks associated with the

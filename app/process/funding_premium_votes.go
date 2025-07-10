@@ -4,7 +4,7 @@ import (
 	"reflect"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/types"
 )
 
 var (

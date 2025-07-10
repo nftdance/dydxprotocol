@@ -6,9 +6,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	"github.com/nftdance/dydxprotocol/lib"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
 )
 
 // BigBaselineMinimum1Hr defines the minimum baseline USDC for the 1-hour rate-limit.

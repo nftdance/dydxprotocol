@@ -5,9 +5,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	appmsgs "github.com/dydxprotocol/v4-chain/protocol/app/msgs"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/ante"
-	testmsgs "github.com/dydxprotocol/v4-chain/protocol/testutil/msgs"
+	appmsgs "github.com/nftdance/dydxprotocol/app/msgs"
+	"github.com/nftdance/dydxprotocol/lib/ante"
+	testmsgs "github.com/nftdance/dydxprotocol/testutil/msgs"
 	"github.com/stretchr/testify/require"
 )
 

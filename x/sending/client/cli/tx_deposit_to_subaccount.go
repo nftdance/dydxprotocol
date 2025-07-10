@@ -4,9 +4,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/x/sending/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 )

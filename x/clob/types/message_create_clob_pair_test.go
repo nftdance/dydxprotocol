@@ -1,10 +1,10 @@
 package types_test
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
 	"github.com/stretchr/testify/require"
 )
 

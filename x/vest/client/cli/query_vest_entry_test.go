@@ -10,9 +10,9 @@ import (
 	tmcli "github.com/cometbft/cometbft/libs/cli"
 	"github.com/cosmos/cosmos-sdk/client"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/network"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vest/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vest/types"
+	"github.com/nftdance/dydxprotocol/testutil/network"
+	"github.com/nftdance/dydxprotocol/x/vest/client/cli"
+	"github.com/nftdance/dydxprotocol/x/vest/types"
 	"github.com/stretchr/testify/require"
 )
 

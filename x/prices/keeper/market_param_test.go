@@ -5,14 +5,14 @@ import (
 	"testing"
 
 	marketmapkeeper "github.com/dydxprotocol/slinky/x/marketmap/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/metrics"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/slinky"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/metrics"
+	"github.com/nftdance/dydxprotocol/lib/slinky"
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	keepertest "github.com/dydxprotocol/v4-chain/protocol/testutil/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	keepertest "github.com/nftdance/dydxprotocol/testutil/keeper"
+	"github.com/nftdance/dydxprotocol/x/prices/types"
 	"github.com/stretchr/testify/require"
 )
 

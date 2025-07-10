@@ -6,9 +6,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/sample"
-	assetssimulation "github.com/dydxprotocol/v4-chain/protocol/x/assets/simulation"
-	"github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/testutil/sample"
+	assetssimulation "github.com/nftdance/dydxprotocol/x/assets/simulation"
+	"github.com/nftdance/dydxprotocol/x/assets/types"
 )
 
 // avoid unused import issue

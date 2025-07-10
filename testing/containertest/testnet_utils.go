@@ -3,13 +3,13 @@ package containertest
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
 	"github.com/stretchr/testify/require"
 
 	upgrade "cosmossdk.io/x/upgrade/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
 )
 
 const GovModuleAddress = "dydx10d07y265gmmuvt4z0w9aw880jnsr700jnmapky"

@@ -4,20 +4,20 @@ import (
 	"fmt"
 	"math/big"
 
-	sendingtypes "github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
+	sendingtypes "github.com/nftdance/dydxprotocol/x/sending/types"
 
-	assetstypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
+	assetstypes "github.com/nftdance/dydxprotocol/x/assets/types"
 
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/log"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/lib/log"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 // GetMegavaultEquity returns the equity of the megavault (in quote quantums), which consists of

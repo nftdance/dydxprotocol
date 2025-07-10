@@ -5,10 +5,10 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	assetstypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	sendingtypes "github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	assetstypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	sendingtypes "github.com/nftdance/dydxprotocol/x/sending/types"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 // RetrieveFromVault retrieves funds from a vault to main vault.

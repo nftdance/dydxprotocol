@@ -2,8 +2,8 @@ package types
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	epochstypes "github.com/dydxprotocol/v4-chain/protocol/x/epochs/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	epochstypes "github.com/nftdance/dydxprotocol/x/epochs/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 type PricesKeeper interface {

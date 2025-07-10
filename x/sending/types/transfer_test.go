@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/util"
-	"github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	testutil "github.com/nftdance/dydxprotocol/testutil/util"
+	"github.com/nftdance/dydxprotocol/x/sending/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 
 	"github.com/stretchr/testify/require"
 )

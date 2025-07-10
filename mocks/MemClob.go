@@ -5,12 +5,12 @@ package mocks
 import (
 	big "math/big"
 
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
 	mock "github.com/stretchr/testify/mock"
 
-	perpetualstypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	perpetualstypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
 
-	subaccountstypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	subaccountstypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

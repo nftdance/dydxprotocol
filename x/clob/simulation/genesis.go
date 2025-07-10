@@ -2,7 +2,7 @@ package simulation
 
 import (
 	"fmt"
-	v4module "github.com/dydxprotocol/v4-chain/protocol/app/module"
+	v4module "github.com/nftdance/dydxprotocol/app/module"
 	"math"
 	"math/rand"
 
@@ -10,10 +10,10 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/sim_helpers"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/testutil/sim_helpers"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
 )
 
 // genNumClobPairs returns a randomized number of CLOB pairs.

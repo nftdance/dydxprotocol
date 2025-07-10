@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

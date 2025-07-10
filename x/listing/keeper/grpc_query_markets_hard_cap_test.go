@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/listing/types"
+	"github.com/nftdance/dydxprotocol/x/listing/types"
 	"github.com/stretchr/testify/require"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
 )
 
 func TestQueryMarketsHardCap(t *testing.T) {

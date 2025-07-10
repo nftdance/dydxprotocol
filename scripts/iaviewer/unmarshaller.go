@@ -4,8 +4,8 @@ import (
 	"github.com/cosmos/gogoproto/proto"
 	"reflect"
 
-	app "github.com/dydxprotocol/v4-chain/protocol/app"
-	clob "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	app "github.com/nftdance/dydxprotocol/app"
+	clob "github.com/nftdance/dydxprotocol/x/clob/types"
 )
 
 func protoUnmarshaller[M proto.Message](b []byte) string {

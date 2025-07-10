@@ -1,7 +1,7 @@
 package liquidity_tier
 
 import (
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
 )
 
 type LtModifierOption func(cp *perptypes.LiquidityTier)

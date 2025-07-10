@@ -2,10 +2,10 @@ package subaccounts
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	indexerevents "github.com/dydxprotocol/v4-chain/protocol/indexer/events"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/indexer_manager"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	indexerevents "github.com/nftdance/dydxprotocol/indexer/events"
+	"github.com/nftdance/dydxprotocol/indexer/indexer_manager"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/keeper"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // InitGenesis initializes the subaccounts module's state from a provided genesis

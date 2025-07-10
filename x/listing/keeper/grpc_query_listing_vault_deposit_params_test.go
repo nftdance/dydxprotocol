@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/x/listing/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/x/listing/types"
 	"github.com/stretchr/testify/require"
 )
 

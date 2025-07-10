@@ -4,14 +4,14 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	affiliateskeeper "github.com/dydxprotocol/v4-chain/protocol/x/affiliates/keeper"
-	affiliatetypes "github.com/dydxprotocol/v4-chain/protocol/x/affiliates/types"
-	feetierskeeper "github.com/dydxprotocol/v4-chain/protocol/x/feetiers/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/feetiers/types"
-	statskeeper "github.com/dydxprotocol/v4-chain/protocol/x/stats/keeper"
-	stattypes "github.com/dydxprotocol/v4-chain/protocol/x/stats/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	affiliateskeeper "github.com/nftdance/dydxprotocol/x/affiliates/keeper"
+	affiliatetypes "github.com/nftdance/dydxprotocol/x/affiliates/types"
+	feetierskeeper "github.com/nftdance/dydxprotocol/x/feetiers/keeper"
+	"github.com/nftdance/dydxprotocol/x/feetiers/types"
+	statskeeper "github.com/nftdance/dydxprotocol/x/stats/keeper"
+	stattypes "github.com/nftdance/dydxprotocol/x/stats/types"
 	"github.com/stretchr/testify/require"
 )
 

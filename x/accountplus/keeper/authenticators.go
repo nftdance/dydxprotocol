@@ -12,9 +12,9 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
 	gogotypes "github.com/cosmos/gogoproto/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/metrics"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/types"
+	"github.com/nftdance/dydxprotocol/lib/metrics"
+	"github.com/nftdance/dydxprotocol/x/accountplus/lib"
+	"github.com/nftdance/dydxprotocol/x/accountplus/types"
 )
 
 // MaybeValidateAuthenticators checks if the transaction has authenticators specified and if so,

@@ -1,8 +1,8 @@
 package test_volatile_exchange
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/constants/exchange_common"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
 )
 
 const SECONDS_IN_DAY = 24 * 60 * 60

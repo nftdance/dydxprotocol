@@ -6,8 +6,8 @@ import (
 	"github.com/cometbft/cometbft/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	delaymsgtypes "github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	delaymsgtypes "github.com/nftdance/dydxprotocol/x/delaymsg/types"
 	"github.com/stretchr/testify/require"
 )
 

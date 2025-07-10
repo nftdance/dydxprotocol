@@ -3,11 +3,11 @@ package constants
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/daemons/pricefeed/exchange_config"
+	"github.com/nftdance/dydxprotocol/testutil/daemons/pricefeed/exchange_config"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/daemons/pricefeed"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/json"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
+	"github.com/nftdance/dydxprotocol/testutil/daemons/pricefeed"
+	"github.com/nftdance/dydxprotocol/testutil/json"
 	"github.com/stretchr/testify/require"
 )
 

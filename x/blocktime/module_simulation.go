@@ -7,9 +7,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/sample"
-	"github.com/dydxprotocol/v4-chain/protocol/x/blocktime/types"
-	ratelimitsimulation "github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/simulation"
+	"github.com/nftdance/dydxprotocol/testutil/sample"
+	"github.com/nftdance/dydxprotocol/x/blocktime/types"
+	ratelimitsimulation "github.com/nftdance/dydxprotocol/x/ratelimit/simulation"
 )
 
 // avoid unused import issue

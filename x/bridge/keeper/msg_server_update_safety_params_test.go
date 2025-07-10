@@ -2,10 +2,10 @@ package keeper_test
 
 import (
 	"fmt"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
+	"github.com/nftdance/dydxprotocol/x/bridge/types"
 	"github.com/stretchr/testify/require"
 )
 

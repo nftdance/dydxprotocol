@@ -2,8 +2,8 @@ package vault
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/x/vault/keeper"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis state.

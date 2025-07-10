@@ -9,9 +9,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	v4module "github.com/dydxprotocol/v4-chain/protocol/app/module"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/sample"
-	clobsimulation "github.com/dydxprotocol/v4-chain/protocol/x/clob/simulation"
+	v4module "github.com/nftdance/dydxprotocol/app/module"
+	"github.com/nftdance/dydxprotocol/testutil/sample"
+	clobsimulation "github.com/nftdance/dydxprotocol/x/clob/simulation"
 )
 
 // avoid unused import issue

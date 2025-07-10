@@ -6,10 +6,10 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	blocktimetypes "github.com/dydxprotocol/v4-chain/protocol/x/blocktime/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	blocktimetypes "github.com/nftdance/dydxprotocol/x/blocktime/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 type AssetsKeeper interface {

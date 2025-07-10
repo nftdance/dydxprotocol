@@ -3,9 +3,9 @@ package lib_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/log"
-	testApp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/lib/log"
+	testApp "github.com/nftdance/dydxprotocol/testutil/app"
 	"github.com/stretchr/testify/require"
 )
 

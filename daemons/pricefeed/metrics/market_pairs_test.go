@@ -3,7 +3,7 @@ package metrics_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/metrics"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/metrics"
 	"github.com/stretchr/testify/require"
 )
 

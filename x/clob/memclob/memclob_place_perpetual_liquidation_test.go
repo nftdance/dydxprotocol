@@ -3,11 +3,11 @@ package memclob
 import (
 	"testing"
 
-	clobtest "github.com/dydxprotocol/v4-chain/protocol/testutil/clob"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	sdktest "github.com/dydxprotocol/v4-chain/protocol/testutil/sdk"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	clobtest "github.com/nftdance/dydxprotocol/testutil/clob"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	sdktest "github.com/nftdance/dydxprotocol/testutil/sdk"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 func TestPlacePerpetualLiquidation_Success(t *testing.T) {

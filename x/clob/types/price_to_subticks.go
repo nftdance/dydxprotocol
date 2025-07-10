@@ -3,8 +3,8 @@ package types
 import (
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // PriceToSubticks converts price value from Prices module into subticks.

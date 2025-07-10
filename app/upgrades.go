@@ -3,11 +3,11 @@ package app
 import (
 	"fmt"
 
-	v_8_1 "github.com/dydxprotocol/v4-chain/protocol/app/upgrades/v8.1"
+	v_8_1 "github.com/nftdance/dydxprotocol/app/upgrades/v8.1"
 
 	upgradetypes "cosmossdk.io/x/upgrade/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app/upgrades"
+	"github.com/nftdance/dydxprotocol/app/upgrades"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	epochtypes "github.com/dydxprotocol/v4-chain/protocol/x/epochs/types"
+	epochtypes "github.com/nftdance/dydxprotocol/x/epochs/types"
 )
 
 // EpochsKeeper defines the expected epochs keeper to get epoch info.

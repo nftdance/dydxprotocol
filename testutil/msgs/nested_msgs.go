@@ -7,10 +7,10 @@ import (
 	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
 	marketmap "github.com/dydxprotocol/slinky/x/marketmap/types"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/encoding"
-	prices "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	sending "github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/encoding"
+	prices "github.com/nftdance/dydxprotocol/x/prices/types"
+	sending "github.com/nftdance/dydxprotocol/x/sending/types"
 )
 
 func init() {

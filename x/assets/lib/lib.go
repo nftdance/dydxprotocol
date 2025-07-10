@@ -3,8 +3,8 @@ package lib
 import (
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib/margin"
-	"github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/lib/margin"
+	"github.com/nftdance/dydxprotocol/x/assets/types"
 )
 
 // GetNetCollateralAndMarginRequirements returns the net collateral, initial margin, and maintenance margin

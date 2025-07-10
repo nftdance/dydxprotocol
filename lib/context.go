@@ -8,7 +8,7 @@ import (
 
 	"github.com/cometbft/cometbft/crypto/tmhash"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/log"
+	"github.com/nftdance/dydxprotocol/lib/log"
 )
 
 // Custom exec modes

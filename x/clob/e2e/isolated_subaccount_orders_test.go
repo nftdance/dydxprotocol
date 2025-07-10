@@ -13,13 +13,13 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/util"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	testutil "github.com/nftdance/dydxprotocol/testutil/util"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 func TestIsolatedSubaccountOrders(t *testing.T) {

@@ -1,6 +1,6 @@
 package types
 
-import satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+import satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 
 // NewClobMatchFromMatchOrders creates a `ClobMatch` from the provided `MatchOrders`.
 func NewClobMatchFromMatchOrders(

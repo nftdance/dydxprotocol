@@ -1,6 +1,6 @@
 package types
 
-import "github.com/dydxprotocol/v4-chain/protocol/dtypes"
+import "github.com/nftdance/dydxprotocol/dtypes"
 
 // DefaultParams defines the default parameters for listing vault deposits.
 func DefaultParams() ListingVaultDepositParams {

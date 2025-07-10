@@ -2,8 +2,8 @@ package accountplus
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/types"
+	"github.com/nftdance/dydxprotocol/x/accountplus/keeper"
+	"github.com/nftdance/dydxprotocol/x/accountplus/types"
 )
 
 func InitGenesis(ctx sdk.Context, k keeper.Keeper, data types.GenesisState) {

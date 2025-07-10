@@ -3,10 +3,10 @@
 package mocks
 
 import (
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
 	mock "github.com/stretchr/testify/mock"
 
-	process "github.com/dydxprotocol/v4-chain/protocol/app/process"
+	process "github.com/nftdance/dydxprotocol/app/process"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

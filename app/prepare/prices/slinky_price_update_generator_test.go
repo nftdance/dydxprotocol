@@ -14,7 +14,7 @@ import (
 	"github.com/dydxprotocol/slinky/abci/testutils"
 	vetypes "github.com/dydxprotocol/slinky/abci/ve/types"
 	oracletypes "github.com/dydxprotocol/slinky/pkg/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app/prepare/prices"
+	"github.com/nftdance/dydxprotocol/app/prepare/prices"
 	"github.com/stretchr/testify/suite"
 )
 

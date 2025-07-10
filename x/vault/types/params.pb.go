@@ -8,7 +8,7 @@ import (
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
-	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/dydxprotocol/v4-chain/protocol/dtypes"
+	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/nftdance/dydxprotocol/dtypes"
 	io "io"
 	math "math"
 	math_bits "math/bits"
@@ -46,7 +46,7 @@ type QuotingParams struct {
 	// positions must have to activate, i.e. if a vault has no perpetual positions
 	// and has strictly less than this amount of quote asset, it will not
 	// activate.
-	ActivationThresholdQuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,7,opt,name=activation_threshold_quote_quantums,json=activationThresholdQuoteQuantums,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"activation_threshold_quote_quantums"`
+	ActivationThresholdQuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,7,opt,name=activation_threshold_quote_quantums,json=activationThresholdQuoteQuantums,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"activation_threshold_quote_quantums"`
 }
 
 func (m *QuotingParams) Reset()         { *m = QuotingParams{} }
@@ -311,7 +311,7 @@ type Params struct {
 	// positions must have to activate, i.e. if a vault has no perpetual positions
 	// and has strictly less than this amount of quote asset, it will not
 	// activate.
-	ActivationThresholdQuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,7,opt,name=activation_threshold_quote_quantums,json=activationThresholdQuoteQuantums,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"activation_threshold_quote_quantums"`
+	ActivationThresholdQuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,7,opt,name=activation_threshold_quote_quantums,json=activationThresholdQuoteQuantums,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"activation_threshold_quote_quantums"`
 }
 
 func (m *Params) Reset()         { *m = Params{} }

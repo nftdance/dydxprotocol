@@ -6,10 +6,10 @@ import (
 
 	upgradetypes "cosmossdk.io/x/upgrade/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 
-	ratelimitkeeper "github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/keeper"
-	ratelimittypes "github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/types"
+	ratelimitkeeper "github.com/nftdance/dydxprotocol/x/ratelimit/keeper"
+	ratelimittypes "github.com/nftdance/dydxprotocol/x/ratelimit/types"
 )
 
 func CreateUpgradeHandler(

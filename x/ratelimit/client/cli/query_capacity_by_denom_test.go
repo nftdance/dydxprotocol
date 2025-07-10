@@ -10,11 +10,11 @@ import (
 
 	tmcli "github.com/cometbft/cometbft/libs/cli"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/types"
-	ratelimitutil "github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/util"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/x/ratelimit/client/cli"
+	"github.com/nftdance/dydxprotocol/x/ratelimit/types"
+	ratelimitutil "github.com/nftdance/dydxprotocol/x/ratelimit/util"
 	"github.com/stretchr/testify/require"
 )
 

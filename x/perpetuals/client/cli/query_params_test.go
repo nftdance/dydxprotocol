@@ -6,8 +6,8 @@ import (
 	"fmt"
 	tmcli "github.com/cometbft/cometbft/libs/cli"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/client/cli"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

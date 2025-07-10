@@ -9,10 +9,10 @@ import (
 	"google.golang.org/grpc/status"
 
 	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	"github.com/nftdance/dydxprotocol/lib"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 func (k Keeper) Vault(

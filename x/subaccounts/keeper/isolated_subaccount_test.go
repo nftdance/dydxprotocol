@@ -4,12 +4,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/util"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	testutil "github.com/nftdance/dydxprotocol/testutil/util"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/keeper"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

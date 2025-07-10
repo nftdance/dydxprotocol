@@ -8,14 +8,14 @@ import (
 	"github.com/cosmos/gogoproto/proto"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/msgsender"
-	ocutypes "github.com/dydxprotocol/v4-chain/protocol/indexer/off_chain_updates/types"
-	v1 "github.com/dydxprotocol/v4-chain/protocol/indexer/protocol/v1"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/shared"
-	sharedtypes "github.com/dydxprotocol/v4-chain/protocol/indexer/shared/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/log"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/indexer/msgsender"
+	ocutypes "github.com/nftdance/dydxprotocol/indexer/off_chain_updates/types"
+	v1 "github.com/nftdance/dydxprotocol/indexer/protocol/v1"
+	"github.com/nftdance/dydxprotocol/indexer/shared"
+	sharedtypes "github.com/nftdance/dydxprotocol/indexer/shared/types"
+	"github.com/nftdance/dydxprotocol/lib/log"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // MustCreateOrderPlaceMessage invokes CreateOrderPlaceMessage and panics if creation was unsuccessful.

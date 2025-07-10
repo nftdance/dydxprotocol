@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/govplus/types"
+	"github.com/nftdance/dydxprotocol/x/govplus/types"
 	"github.com/stretchr/testify/require"
 )
 

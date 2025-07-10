@@ -5,19 +5,19 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/indexer_manager"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/slinky"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/indexer/indexer_manager"
+	"github.com/nftdance/dydxprotocol/lib/slinky"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	gogotypes "github.com/cosmos/gogoproto/types"
 	"github.com/dydxprotocol/slinky/x/marketmap/types/tickermetadata"
-	indexerevents "github.com/dydxprotocol/v4-chain/protocol/indexer/events"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/listing/types"
-	perpetualtypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	indexerevents "github.com/nftdance/dydxprotocol/indexer/events"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/listing/types"
+	perpetualtypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // Function to set hard cap on listed markets in module store

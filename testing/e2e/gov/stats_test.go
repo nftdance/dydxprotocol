@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 
 	"github.com/cometbft/cometbft/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	govtypesv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	statstypes "github.com/dydxprotocol/v4-chain/protocol/x/stats/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	statstypes "github.com/nftdance/dydxprotocol/x/stats/types"
 	"github.com/stretchr/testify/require"
 )
 

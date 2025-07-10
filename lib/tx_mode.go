@@ -2,7 +2,7 @@ package lib
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/log"
+	"github.com/nftdance/dydxprotocol/lib/log"
 )
 
 func AssertDeliverTxMode(ctx sdk.Context) {

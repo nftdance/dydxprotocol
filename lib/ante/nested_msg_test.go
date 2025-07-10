@@ -8,11 +8,11 @@ import (
 	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
 	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
-	appmsgs "github.com/dydxprotocol/v4-chain/protocol/app/msgs"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/ante"
-	testmsgs "github.com/dydxprotocol/v4-chain/protocol/testutil/msgs"
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	appmsgs "github.com/nftdance/dydxprotocol/app/msgs"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/lib/ante"
+	testmsgs "github.com/nftdance/dydxprotocol/testutil/msgs"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 
 	"github.com/stretchr/testify/require"
 )

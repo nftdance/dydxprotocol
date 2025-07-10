@@ -3,7 +3,7 @@ package sim_helpers
 import (
 	"math"
 
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
 )
 
 // All generated genesis parameters should be defined here.

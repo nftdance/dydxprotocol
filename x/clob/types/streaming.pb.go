@@ -6,8 +6,8 @@ package types
 import (
 	fmt "fmt"
 	proto "github.com/cosmos/gogoproto/proto"
-	types1 "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	types "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	types1 "github.com/nftdance/dydxprotocol/x/prices/types"
+	types "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	io "io"
 	math "math"
 	math_bits "math/bits"

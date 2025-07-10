@@ -8,8 +8,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/gogoproto/proto"
-	ante_types "github.com/dydxprotocol/v4-chain/protocol/app/ante/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	ante_types "github.com/nftdance/dydxprotocol/app/ante/types"
+	"github.com/nftdance/dydxprotocol/lib"
 )
 
 // EventStager supports staging and retrieval of events (of type T) from FinalizeBlock.

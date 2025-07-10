@@ -9,7 +9,7 @@ import (
 	proto "github.com/cosmos/gogoproto/proto"
 	_ "github.com/cosmos/gogoproto/types"
 	github_com_cosmos_gogoproto_types "github.com/cosmos/gogoproto/types"
-	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/dydxprotocol/v4-chain/protocol/dtypes"
+	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/nftdance/dydxprotocol/dtypes"
 	io "io"
 	math "math"
 	math_bits "math/bits"
@@ -397,7 +397,7 @@ func (m *UserStats) GetMakerNotional() uint64 {
 // CachedStakeAmount stores the last calculated total staked amount for address
 type CachedStakeAmount struct {
 	// Last calculated total staked amount by the delegator (in coin amount).
-	StakedAmount github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,1,opt,name=staked_amount,json=stakedAmount,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"staked_amount"`
+	StakedAmount github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,1,opt,name=staked_amount,json=stakedAmount,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"staked_amount"`
 	// Block time at which the calculation is cached (in Unix Epoch seconds)
 	// Rounded down to nearest second.
 	CachedAt int64 `protobuf:"varint,2,opt,name=cached_at,json=cachedAt,proto3" json:"cached_at,omitempty"`

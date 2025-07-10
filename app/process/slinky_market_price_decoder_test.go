@@ -8,10 +8,10 @@ import (
 	"github.com/dydxprotocol/slinky/abci/testutils"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/dydxprotocol/v4-chain/protocol/app/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/app/process"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/app/constants"
+	"github.com/nftdance/dydxprotocol/app/process"
+	"github.com/nftdance/dydxprotocol/mocks"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 type SlinkyMarketPriceDecoderSuite struct {

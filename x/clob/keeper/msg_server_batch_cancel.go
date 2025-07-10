@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
 )
 
 // BatchCancel performs batch order cancellation functionality for short term orders.

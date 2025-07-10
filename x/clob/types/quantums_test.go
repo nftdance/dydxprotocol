@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"testing"
 
-	big_testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/big"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	big_testutil "github.com/nftdance/dydxprotocol/testutil/big"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

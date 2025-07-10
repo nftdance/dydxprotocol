@@ -2,7 +2,7 @@ package process
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
 )
 
 // IsDisallowClobOrderMsgInOtherTxs returns true if the given msg type is not allowed

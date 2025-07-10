@@ -5,15 +5,15 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/log"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/vault"
-	assetstypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	sendingtypes "github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/lib/log"
+	"github.com/nftdance/dydxprotocol/lib/vault"
+	assetstypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
+	sendingtypes "github.com/nftdance/dydxprotocol/x/sending/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 // GetVaultWithdrawalSlippage returns the slippage that should be incurred from the specified

@@ -3,10 +3,10 @@ package events_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/events"
-	v1types "github.com/dydxprotocol/v4-chain/protocol/indexer/protocol/v1/types"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/indexer/events"
+	v1types "github.com/nftdance/dydxprotocol/indexer/protocol/v1/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 
 	"github.com/stretchr/testify/require"
 )

@@ -2,10 +2,10 @@ package streaming
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/streaming/types"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/streaming/types"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 var _ types.FullNodeStreamingManager = (*NoopGrpcStreamingManager)(nil)

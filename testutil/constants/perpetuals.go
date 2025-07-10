@@ -3,8 +3,8 @@ package constants
 import (
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
 )
 
 func init() {

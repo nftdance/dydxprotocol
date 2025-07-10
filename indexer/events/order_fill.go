@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math/big"
 
-	v1 "github.com/dydxprotocol/v4-chain/protocol/indexer/protocol/v1"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	v1 "github.com/nftdance/dydxprotocol/indexer/protocol/v1"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // NewOrderFillEvent creates a new OrderFillEvent proto message given the maker and taker orders along

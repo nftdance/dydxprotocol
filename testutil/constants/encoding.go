@@ -1,6 +1,6 @@
 package constants
 
-import "github.com/dydxprotocol/v4-chain/protocol/testutil/encoding"
+import "github.com/nftdance/dydxprotocol/testutil/encoding"
 
 var (
 	TestEncodingCfg = encoding.GetTestEncodingCfg()

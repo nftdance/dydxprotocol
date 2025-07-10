@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/authenticator"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/types"
+	"github.com/nftdance/dydxprotocol/x/accountplus/authenticator"
+	"github.com/nftdance/dydxprotocol/x/accountplus/types"
 )
 
 // Mock Authenticator for testing purposes

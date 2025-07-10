@@ -5,7 +5,7 @@ import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/types"
+	"github.com/nftdance/dydxprotocol/x/accountplus/types"
 )
 
 // HasSelectedAuthenticatorTxExtensionSpecified checks to see if the transaction has the correct

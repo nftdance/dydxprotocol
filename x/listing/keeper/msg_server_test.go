@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/x/listing/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/listing/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/x/listing/keeper"
+	"github.com/nftdance/dydxprotocol/x/listing/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,7 +3,7 @@ package perpetuals_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/perpetuals"
+	"github.com/nftdance/dydxprotocol/testutil/perpetuals"
 	"github.com/stretchr/testify/require"
 )
 

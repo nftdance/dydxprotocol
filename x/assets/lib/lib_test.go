@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	assetslib "github.com/dydxprotocol/v4-chain/protocol/x/assets/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
+	assetslib "github.com/nftdance/dydxprotocol/x/assets/lib"
+	"github.com/nftdance/dydxprotocol/x/assets/types"
 	"github.com/stretchr/testify/require"
 )
 

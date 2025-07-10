@@ -11,8 +11,8 @@ import (
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	grpc1 "github.com/cosmos/gogoproto/grpc"
 	proto "github.com/cosmos/gogoproto/proto"
-	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	types "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/nftdance/dydxprotocol/dtypes"
+	types "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -38,7 +38,7 @@ type MsgDepositToMegavault struct {
 	// The subaccount to deposit from.
 	SubaccountId *types.SubaccountId `protobuf:"bytes,1,opt,name=subaccount_id,json=subaccountId,proto3" json:"subaccount_id,omitempty"`
 	// Number of quote quantums to deposit.
-	QuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,2,opt,name=quote_quantums,json=quoteQuantums,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"quote_quantums"`
+	QuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,2,opt,name=quote_quantums,json=quoteQuantums,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"quote_quantums"`
 }
 
 func (m *MsgDepositToMegavault) Reset()         { *m = MsgDepositToMegavault{} }
@@ -136,7 +136,7 @@ type MsgWithdrawFromMegavault struct {
 	Shares NumShares `protobuf:"bytes,2,opt,name=shares,proto3" json:"shares"`
 	// The minimum number of quote quantums above shares should redeem, i.e.
 	// transaction fails if above shares redeem less than min_quote_quantums.
-	MinQuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=min_quote_quantums,json=minQuoteQuantums,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"min_quote_quantums"`
+	MinQuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=min_quote_quantums,json=minQuoteQuantums,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"min_quote_quantums"`
 }
 
 func (m *MsgWithdrawFromMegavault) Reset()         { *m = MsgWithdrawFromMegavault{} }
@@ -190,7 +190,7 @@ func (m *MsgWithdrawFromMegavault) GetShares() NumShares {
 // type.
 type MsgWithdrawFromMegavaultResponse struct {
 	// The number of quote quantums redeemed from the withdrawal.
-	QuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,1,opt,name=quote_quantums,json=quoteQuantums,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"quote_quantums"`
+	QuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,1,opt,name=quote_quantums,json=quoteQuantums,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"quote_quantums"`
 }
 
 func (m *MsgWithdrawFromMegavaultResponse) Reset()         { *m = MsgWithdrawFromMegavaultResponse{} }
@@ -616,7 +616,7 @@ type MsgAllocateToVault struct {
 	// The vault to allocate to.
 	VaultId VaultId `protobuf:"bytes,2,opt,name=vault_id,json=vaultId,proto3" json:"vault_id"`
 	// Number of quote quantums to allocate.
-	QuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=quote_quantums,json=quoteQuantums,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"quote_quantums"`
+	QuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=quote_quantums,json=quoteQuantums,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"quote_quantums"`
 }
 
 func (m *MsgAllocateToVault) Reset()         { *m = MsgAllocateToVault{} }
@@ -709,7 +709,7 @@ type MsgRetrieveFromVault struct {
 	// The vault to retrieve from.
 	VaultId VaultId `protobuf:"bytes,2,opt,name=vault_id,json=vaultId,proto3" json:"vault_id"`
 	// Number of quote quantums to retrieve.
-	QuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=quote_quantums,json=quoteQuantums,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"quote_quantums"`
+	QuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=quote_quantums,json=quoteQuantums,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"quote_quantums"`
 }
 
 func (m *MsgRetrieveFromVault) Reset()         { *m = MsgRetrieveFromVault{} }

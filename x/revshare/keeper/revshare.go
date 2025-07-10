@@ -5,10 +5,10 @@ import (
 
 	"cosmossdk.io/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	affiliatetypes "github.com/dydxprotocol/v4-chain/protocol/x/affiliates/types"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	affiliatetypes "github.com/nftdance/dydxprotocol/x/affiliates/types"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/revshare/types"
 )
 
 // Function to serialize market mapper revenue share params and store in the module store

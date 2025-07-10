@@ -3,7 +3,7 @@ package keeper
 import (
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/feetiers/types"
+	"github.com/nftdance/dydxprotocol/x/feetiers/types"
 )
 
 // GetPerpetualFeeParams returns the PerpetualFeeParams in state.

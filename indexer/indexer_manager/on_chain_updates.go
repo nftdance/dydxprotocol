@@ -3,7 +3,7 @@ package indexer_manager
 import (
 	"fmt"
 	"github.com/cosmos/gogoproto/proto"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/msgsender"
+	"github.com/nftdance/dydxprotocol/indexer/msgsender"
 )
 
 const (

@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	pricefeed_types "github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/types"
-	pricefeedserver_types "github.com/dydxprotocol/v4-chain/protocol/daemons/server/types/pricefeed"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/slinky/client"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
+	pricefeed_types "github.com/nftdance/dydxprotocol/daemons/pricefeed/types"
+	pricefeedserver_types "github.com/nftdance/dydxprotocol/daemons/server/types/pricefeed"
+	"github.com/nftdance/dydxprotocol/daemons/slinky/client"
+	"github.com/nftdance/dydxprotocol/mocks"
 )
 
 func TestPriceFetcher(t *testing.T) {

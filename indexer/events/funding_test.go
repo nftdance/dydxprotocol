@@ -3,11 +3,11 @@ package events_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
 
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/events"
+	"github.com/nftdance/dydxprotocol/indexer/events"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	appflags "github.com/dydxprotocol/v4-chain/protocol/app/flags"
-	daemonflags "github.com/dydxprotocol/v4-chain/protocol/daemons/flags"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer"
-	clobflags "github.com/dydxprotocol/v4-chain/protocol/x/clob/flags"
+	appflags "github.com/nftdance/dydxprotocol/app/flags"
+	daemonflags "github.com/nftdance/dydxprotocol/daemons/flags"
+	"github.com/nftdance/dydxprotocol/indexer"
+	clobflags "github.com/nftdance/dydxprotocol/x/clob/flags"
 	"github.com/spf13/cobra"
 )
 

@@ -11,8 +11,8 @@ import (
 
 	"cosmossdk.io/log"
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/dydxprotocol/v4-chain/protocol/streaming/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/streaming/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	"github.com/gorilla/websocket"
 )
 

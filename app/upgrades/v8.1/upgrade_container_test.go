@@ -5,10 +5,10 @@ package v_8_1_test
 import (
 	"testing"
 
-	v_8_1 "github.com/dydxprotocol/v4-chain/protocol/app/upgrades/v8.1"
+	v_8_1 "github.com/nftdance/dydxprotocol/app/upgrades/v8.1"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testing/containertest"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testing/containertest"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
 	"github.com/stretchr/testify/require"
 )
 

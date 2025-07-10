@@ -5,33 +5,33 @@ import (
 	"math/big"
 	"testing"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/util"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	testutil "github.com/nftdance/dydxprotocol/testutil/util"
 
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 
-	asstypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
+	asstypes "github.com/nftdance/dydxprotocol/x/assets/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
 
 	oracletypes "github.com/dydxprotocol/slinky/pkg/types"
 	marketmaptypes "github.com/dydxprotocol/slinky/x/marketmap/types"
 	"github.com/dydxprotocol/slinky/x/marketmap/types/tickermetadata"
-	perpetualtypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	perpetualtypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
 
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 
 	comettypes "github.com/cometbft/cometbft/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/listing/types"
+	"github.com/nftdance/dydxprotocol/x/listing/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	keepertest "github.com/dydxprotocol/v4-chain/protocol/testutil/keeper"
+	"github.com/nftdance/dydxprotocol/mocks"
+	keepertest "github.com/nftdance/dydxprotocol/testutil/keeper"
 	"github.com/stretchr/testify/require"
 )
 

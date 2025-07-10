@@ -2,7 +2,7 @@ package types
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // PerpInfo contains all information needed to calculate margin requirements for a perpetual.

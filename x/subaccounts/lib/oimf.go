@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/big"
 
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // Helper function to compute the delta long for a single settled update on a perpetual.

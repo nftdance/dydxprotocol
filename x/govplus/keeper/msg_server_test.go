@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/x/govplus/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/govplus/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/x/govplus/keeper"
+	"github.com/nftdance/dydxprotocol/x/govplus/types"
 	"github.com/stretchr/testify/require"
 )
 

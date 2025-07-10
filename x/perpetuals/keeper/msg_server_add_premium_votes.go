@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/types"
 )
 
 // AddPremiumVotes add new premium sample votes from a proposer to the application.

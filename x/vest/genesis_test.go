@@ -3,10 +3,10 @@ package vest_test
 import (
 	"testing"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/vest"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vest/types"
+	"github.com/nftdance/dydxprotocol/x/vest"
+	"github.com/nftdance/dydxprotocol/x/vest/types"
 	"github.com/stretchr/testify/require"
 )
 

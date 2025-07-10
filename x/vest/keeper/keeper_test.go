@@ -10,11 +10,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	big_testutil "github.com/dydxprotocol/v4-chain/protocol/testutil/big"
-	blocktimetypes "github.com/dydxprotocol/v4-chain/protocol/x/blocktime/types"
-	rewardstypes "github.com/dydxprotocol/v4-chain/protocol/x/rewards/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vest/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	big_testutil "github.com/nftdance/dydxprotocol/testutil/big"
+	blocktimetypes "github.com/nftdance/dydxprotocol/x/blocktime/types"
+	rewardstypes "github.com/nftdance/dydxprotocol/x/rewards/types"
+	"github.com/nftdance/dydxprotocol/x/vest/types"
 	"github.com/stretchr/testify/require"
 )
 

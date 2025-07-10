@@ -8,11 +8,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/indexer_manager"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	affiliateskeeper "github.com/dydxprotocol/v4-chain/protocol/x/affiliates/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/affiliates/types"
-	statskeeper "github.com/dydxprotocol/v4-chain/protocol/x/stats/keeper"
+	"github.com/nftdance/dydxprotocol/indexer/indexer_manager"
+	"github.com/nftdance/dydxprotocol/mocks"
+	affiliateskeeper "github.com/nftdance/dydxprotocol/x/affiliates/keeper"
+	"github.com/nftdance/dydxprotocol/x/affiliates/types"
+	statskeeper "github.com/nftdance/dydxprotocol/x/stats/keeper"
 )
 
 func AffiliatesKeepers(t testing.TB, msgSenderEnabled bool) (

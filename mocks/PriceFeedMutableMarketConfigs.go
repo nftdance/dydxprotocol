@@ -3,8 +3,8 @@
 package mocks
 
 import (
-	types "github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	types "github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

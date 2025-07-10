@@ -15,9 +15,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
+	"github.com/nftdance/dydxprotocol/x/revshare/client/cli"
+	"github.com/nftdance/dydxprotocol/x/revshare/keeper"
+	"github.com/nftdance/dydxprotocol/x/revshare/types"
 )
 
 var (

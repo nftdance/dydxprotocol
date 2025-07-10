@@ -2,11 +2,11 @@ package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	indexerevents "github.com/dydxprotocol/v4-chain/protocol/indexer/events"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/indexer_manager"
-	indexershared "github.com/dydxprotocol/v4-chain/protocol/indexer/shared/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/log"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	indexerevents "github.com/nftdance/dydxprotocol/indexer/events"
+	"github.com/nftdance/dydxprotocol/indexer/indexer_manager"
+	indexershared "github.com/nftdance/dydxprotocol/indexer/shared/types"
+	"github.com/nftdance/dydxprotocol/lib/log"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
 )
 
 // mustTransitionToFinalSettlement holds logic executed when a market transitions to FINAL_SETTLEMENT status.

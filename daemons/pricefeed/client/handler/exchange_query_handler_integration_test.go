@@ -5,13 +5,13 @@ package handler
 import (
 	"context"
 	"fmt"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/price_function/kraken"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/types"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/price_function/kraken"
+	"github.com/nftdance/dydxprotocol/daemons/types"
 	"net/http"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/price_function/binance"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/price_function/bitfinex"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/price_function/binance"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/price_function/bitfinex"
 	"github.com/stretchr/testify/require"
 )
 

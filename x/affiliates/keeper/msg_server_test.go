@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	constants "github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/x/affiliates/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/affiliates/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	constants "github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/x/affiliates/keeper"
+	"github.com/nftdance/dydxprotocol/x/affiliates/types"
 	"github.com/stretchr/testify/require"
 )
 

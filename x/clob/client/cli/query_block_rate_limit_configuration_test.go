@@ -8,8 +8,8 @@ import (
 
 	tmcli "github.com/cometbft/cometbft/libs/cli"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/clob/client/cli"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
 	"github.com/stretchr/testify/require"
 )
 

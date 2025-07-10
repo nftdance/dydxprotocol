@@ -1,9 +1,9 @@
 package constants
 
 import (
-	pricefeedclient "github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/daemons/pricefeed/exchange_config"
-	"github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricefeedclient "github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
+	"github.com/nftdance/dydxprotocol/testutil/daemons/pricefeed/exchange_config"
+	"github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 func init() {

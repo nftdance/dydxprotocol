@@ -4,7 +4,7 @@ package types
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 )
 
 // Panic strings

@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
-	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/dydxprotocol/v4-chain/protocol/dtypes"
+	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/nftdance/dydxprotocol/dtypes"
 	io "io"
 	math "math"
 	math_bits "math/bits"
@@ -27,10 +27,10 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 // ListingVaultDepositParams represents the params for PML megavault deposits
 type ListingVaultDepositParams struct {
 	// Amount that will be deposited into the new market vault exclusively
-	NewVaultDepositAmount github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,1,opt,name=new_vault_deposit_amount,json=newVaultDepositAmount,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"new_vault_deposit_amount"`
+	NewVaultDepositAmount github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,1,opt,name=new_vault_deposit_amount,json=newVaultDepositAmount,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"new_vault_deposit_amount"`
 	// Amount deposited into the main vault exclusively. This amount does not
 	// include the amount deposited into the new vault.
-	MainVaultDepositAmount github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,2,opt,name=main_vault_deposit_amount,json=mainVaultDepositAmount,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"main_vault_deposit_amount"`
+	MainVaultDepositAmount github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,2,opt,name=main_vault_deposit_amount,json=mainVaultDepositAmount,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"main_vault_deposit_amount"`
 	// Lockup period for this deposit
 	NumBlocksToLockShares uint32 `protobuf:"varint,3,opt,name=num_blocks_to_lock_shares,json=numBlocksToLockShares,proto3" json:"num_blocks_to_lock_shares,omitempty"`
 }

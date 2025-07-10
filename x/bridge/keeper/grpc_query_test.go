@@ -9,13 +9,13 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	pricestest "github.com/dydxprotocol/v4-chain/protocol/testutil/prices"
-	"github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
-	delaymsgtypes "github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	sendingtypes "github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	pricestest "github.com/nftdance/dydxprotocol/testutil/prices"
+	"github.com/nftdance/dydxprotocol/x/bridge/types"
+	delaymsgtypes "github.com/nftdance/dydxprotocol/x/delaymsg/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
+	sendingtypes "github.com/nftdance/dydxprotocol/x/sending/types"
 )
 
 var (

@@ -1,8 +1,8 @@
 package test_fixed_price_exchange
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/constants/exchange_common"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
 )
 
 // Fixed prices for BTC-USD, ETH-USD, SOL-USD

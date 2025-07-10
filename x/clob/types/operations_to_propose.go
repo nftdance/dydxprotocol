@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // OperationsToPropose is a struct encapsulating data required for determining the operations

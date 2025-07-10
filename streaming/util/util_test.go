@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ocutypes "github.com/dydxprotocol/v4-chain/protocol/indexer/off_chain_updates/types"
-	pv1types "github.com/dydxprotocol/v4-chain/protocol/indexer/protocol/v1/types"
-	stypes "github.com/dydxprotocol/v4-chain/protocol/indexer/shared/types"
-	"github.com/dydxprotocol/v4-chain/protocol/streaming/util"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	ocutypes "github.com/nftdance/dydxprotocol/indexer/off_chain_updates/types"
+	pv1types "github.com/nftdance/dydxprotocol/indexer/protocol/v1/types"
+	stypes "github.com/nftdance/dydxprotocol/indexer/shared/types"
+	"github.com/nftdance/dydxprotocol/streaming/util"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 func _ToPtr[V any](v V) *V {

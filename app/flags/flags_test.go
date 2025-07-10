@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/dydxprotocol/v4-chain/protocol/app/flags"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
+	"github.com/nftdance/dydxprotocol/app/flags"
+	"github.com/nftdance/dydxprotocol/mocks"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

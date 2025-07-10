@@ -3,10 +3,10 @@ package types_test
 import (
 	"testing"
 
-	liquidationstypes "github.com/dydxprotocol/v4-chain/protocol/daemons/server/types/liquidations"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	liquidationstypes "github.com/nftdance/dydxprotocol/daemons/server/types/liquidations"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 // GetVaultTypeFromString returns a vault type from a string.

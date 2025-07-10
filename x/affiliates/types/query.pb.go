@@ -10,7 +10,7 @@ import (
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	grpc1 "github.com/cosmos/gogoproto/grpc"
 	proto "github.com/cosmos/gogoproto/proto"
-	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/dydxprotocol/v4-chain/protocol/dtypes"
+	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/nftdance/dydxprotocol/dtypes"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
@@ -89,9 +89,9 @@ type AffiliateInfoResponse struct {
 	// regular affiliate).
 	FeeSharePpm uint32 `protobuf:"varint,3,opt,name=fee_share_ppm,json=feeSharePpm,proto3" json:"fee_share_ppm,omitempty"`
 	// The affiliate's all-time referred volume in quote quantums.
-	ReferredVolume github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,4,opt,name=referred_volume,json=referredVolume,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"referred_volume"`
+	ReferredVolume github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,4,opt,name=referred_volume,json=referredVolume,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"referred_volume"`
 	// The affiliate's currently staked native tokens (in whole coins).
-	StakedAmount github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,5,opt,name=staked_amount,json=stakedAmount,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"staked_amount"`
+	StakedAmount github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,5,opt,name=staked_amount,json=stakedAmount,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"staked_amount"`
 }
 
 func (m *AffiliateInfoResponse) Reset()         { *m = AffiliateInfoResponse{} }

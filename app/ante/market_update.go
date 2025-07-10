@@ -11,9 +11,9 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	mmtypes "github.com/dydxprotocol/slinky/x/marketmap/types"
 
-	slinkylibs "github.com/dydxprotocol/v4-chain/protocol/lib/slinky"
-	perpetualstypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	slinkylibs "github.com/nftdance/dydxprotocol/lib/slinky"
+	perpetualstypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 var ErrRestrictedMarketUpdates = errors.New("cannot call MsgUpdateMarkets or MsgUpsertMarkets " +

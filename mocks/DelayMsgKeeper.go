@@ -4,8 +4,8 @@
 package mocks
 
 import (
-	lib "github.com/dydxprotocol/v4-chain/protocol/lib"
-	delaymsgtypes "github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
+	lib "github.com/nftdance/dydxprotocol/lib"
+	delaymsgtypes "github.com/nftdance/dydxprotocol/x/delaymsg/types"
 
 	log "cosmossdk.io/log"
 

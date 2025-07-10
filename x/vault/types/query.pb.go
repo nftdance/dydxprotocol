@@ -11,8 +11,8 @@ import (
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	grpc1 "github.com/cosmos/gogoproto/grpc"
 	proto "github.com/cosmos/gogoproto/proto"
-	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	types "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	github_com_dydxprotocol_v4_chain_protocol_dtypes "github.com/nftdance/dydxprotocol/dtypes"
+	types "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
@@ -180,8 +180,8 @@ func (m *QueryVaultRequest) GetNumber() uint32 {
 type QueryVaultResponse struct {
 	VaultId             VaultId                                                          `protobuf:"bytes,1,opt,name=vault_id,json=vaultId,proto3" json:"vault_id"`
 	SubaccountId        types.SubaccountId                                               `protobuf:"bytes,2,opt,name=subaccount_id,json=subaccountId,proto3" json:"subaccount_id"`
-	Equity              github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=equity,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"equity"`
-	Inventory           github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,4,opt,name=inventory,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"inventory"`
+	Equity              github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=equity,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"equity"`
+	Inventory           github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,4,opt,name=inventory,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"inventory"`
 	VaultParams         VaultParams                                                      `protobuf:"bytes,5,opt,name=vault_params,json=vaultParams,proto3" json:"vault_params"`
 	MostRecentClientIds []uint32                                                         `protobuf:"varint,6,rep,packed,name=most_recent_client_ids,json=mostRecentClientIds,proto3" json:"most_recent_client_ids,omitempty"`
 }
@@ -485,10 +485,10 @@ type QueryMegavaultOwnerSharesResponse struct {
 	// All share unlocks.
 	ShareUnlocks []ShareUnlock `protobuf:"bytes,3,rep,name=share_unlocks,json=shareUnlocks,proto3" json:"share_unlocks"`
 	// Owner equity in megavault (in quote quantums).
-	Equity github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,4,opt,name=equity,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"equity"`
+	Equity github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,4,opt,name=equity,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"equity"`
 	// Equity that owner can withdraw in quote quantums (as one cannot
 	// withdraw locked shares).
-	WithdrawableEquity github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,5,opt,name=withdrawable_equity,json=withdrawableEquity,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"withdrawable_equity"`
+	WithdrawableEquity github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,5,opt,name=withdrawable_equity,json=withdrawableEquity,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"withdrawable_equity"`
 }
 
 func (m *QueryMegavaultOwnerSharesResponse) Reset()         { *m = QueryMegavaultOwnerSharesResponse{} }
@@ -807,9 +807,9 @@ type QueryMegavaultWithdrawalInfoResponse struct {
 	// Withdrawl slippage can be calculated by comparing
 	// `expected_quote_quantums` with
 	// `megavault_equity * shares_to_withdraw / total_shares`
-	ExpectedQuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,2,opt,name=expected_quote_quantums,json=expectedQuoteQuantums,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"expected_quote_quantums"`
+	ExpectedQuoteQuantums github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,2,opt,name=expected_quote_quantums,json=expectedQuoteQuantums,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"expected_quote_quantums"`
 	// Equity of megavault (in quote quantums).
-	MegavaultEquity github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=megavault_equity,json=megavaultEquity,proto3,customtype=github.com/dydxprotocol/v4-chain/protocol/dtypes.SerializableInt" json:"megavault_equity"`
+	MegavaultEquity github_com_dydxprotocol_v4_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,3,opt,name=megavault_equity,json=megavaultEquity,proto3,customtype=github.com/nftdance/dydxprotocol/dtypes.SerializableInt" json:"megavault_equity"`
 	// Total shares in megavault.
 	TotalShares NumShares `protobuf:"bytes,4,opt,name=total_shares,json=totalShares,proto3" json:"total_shares"`
 }

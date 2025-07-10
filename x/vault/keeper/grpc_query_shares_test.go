@@ -6,11 +6,11 @@ import (
 
 	"github.com/cometbft/cometbft/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 	"github.com/stretchr/testify/require"
 )
 

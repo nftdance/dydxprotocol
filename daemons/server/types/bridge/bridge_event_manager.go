@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/cosmos/cosmos-sdk/telemetry"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/metrics"
-	libtime "github.com/dydxprotocol/v4-chain/protocol/lib/time"
-	"github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
+	"github.com/nftdance/dydxprotocol/lib/metrics"
+	libtime "github.com/nftdance/dydxprotocol/lib/time"
+	"github.com/nftdance/dydxprotocol/x/bridge/types"
 )
 
 type EventId = uint32

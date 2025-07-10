@@ -3,12 +3,12 @@ package v1
 import (
 	"fmt"
 
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	v1types "github.com/dydxprotocol/v4-chain/protocol/indexer/protocol/v1/types"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	v1types "github.com/nftdance/dydxprotocol/indexer/protocol/v1/types"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 func SubaccountIdToIndexerSubaccountId(

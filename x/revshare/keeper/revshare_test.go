@@ -7,14 +7,14 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	affiliateskeeper "github.com/dydxprotocol/v4-chain/protocol/x/affiliates/keeper"
-	affiliatetypes "github.com/dydxprotocol/v4-chain/protocol/x/affiliates/types"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	affiliateskeeper "github.com/nftdance/dydxprotocol/x/affiliates/keeper"
+	affiliatetypes "github.com/nftdance/dydxprotocol/x/affiliates/types"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/revshare/keeper"
+	"github.com/nftdance/dydxprotocol/x/revshare/types"
 	"github.com/stretchr/testify/require"
 )
 

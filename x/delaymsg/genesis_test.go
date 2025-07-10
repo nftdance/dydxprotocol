@@ -3,10 +3,10 @@ package delaymsg_test
 import (
 	"testing"
 
-	testutildelaymsg "github.com/dydxprotocol/v4-chain/protocol/testutil/delaymsg"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/delaymsg"
-	"github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
+	testutildelaymsg "github.com/nftdance/dydxprotocol/testutil/delaymsg"
+	"github.com/nftdance/dydxprotocol/testutil/keeper"
+	"github.com/nftdance/dydxprotocol/x/delaymsg"
+	"github.com/nftdance/dydxprotocol/x/delaymsg/types"
 	"github.com/stretchr/testify/require"
 )
 

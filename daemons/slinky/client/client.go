@@ -11,11 +11,11 @@ import (
 
 	oracleclient "github.com/dydxprotocol/slinky/service/clients/oracle"
 
-	appflags "github.com/dydxprotocol/v4-chain/protocol/app/flags"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/flags"
-	pricefeedtypes "github.com/dydxprotocol/v4-chain/protocol/daemons/server/types/pricefeed"
-	daemontypes "github.com/dydxprotocol/v4-chain/protocol/daemons/types"
-	libtime "github.com/dydxprotocol/v4-chain/protocol/lib/time"
+	appflags "github.com/nftdance/dydxprotocol/app/flags"
+	"github.com/nftdance/dydxprotocol/daemons/flags"
+	pricefeedtypes "github.com/nftdance/dydxprotocol/daemons/server/types/pricefeed"
+	daemontypes "github.com/nftdance/dydxprotocol/daemons/types"
+	libtime "github.com/nftdance/dydxprotocol/lib/time"
 )
 
 // Client is the daemon implementation for pulling price data from the slinky sidecar.

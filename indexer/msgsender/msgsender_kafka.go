@@ -8,9 +8,9 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/burdiyan/kafkautil"
 	"github.com/cosmos/cosmos-sdk/telemetry"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/msgsender/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/metrics"
+	"github.com/nftdance/dydxprotocol/indexer"
+	"github.com/nftdance/dydxprotocol/indexer/msgsender/types"
+	"github.com/nftdance/dydxprotocol/lib/metrics"
 )
 
 // Ensure the `IndexerMessageSender` interface is implemented at compile time.

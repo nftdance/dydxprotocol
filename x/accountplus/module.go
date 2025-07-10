@@ -15,9 +15,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/types"
+	"github.com/nftdance/dydxprotocol/x/accountplus/client/cli"
+	"github.com/nftdance/dydxprotocol/x/accountplus/keeper"
+	"github.com/nftdance/dydxprotocol/x/accountplus/types"
 )
 
 var (

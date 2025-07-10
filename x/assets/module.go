@@ -13,9 +13,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/dydxprotocol/v4-chain/protocol/x/assets/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/assets/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
+	"github.com/nftdance/dydxprotocol/x/assets/client/cli"
+	"github.com/nftdance/dydxprotocol/x/assets/keeper"
+	"github.com/nftdance/dydxprotocol/x/assets/types"
 )
 
 var (

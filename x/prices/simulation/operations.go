@@ -3,7 +3,7 @@ package simulation
 // DONTCOVER
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/app/module"
+	"github.com/nftdance/dydxprotocol/app/module"
 	"math/big"
 	"math/rand"
 
@@ -12,10 +12,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/sim_helpers"
-	"github.com/dydxprotocol/v4-chain/protocol/x/prices/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/testutil/sim_helpers"
+	"github.com/nftdance/dydxprotocol/x/prices/keeper"
+	"github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // Simulation operation weights constants

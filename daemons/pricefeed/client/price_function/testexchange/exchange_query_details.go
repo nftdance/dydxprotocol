@@ -3,9 +3,9 @@ package testexchange
 import (
 	"fmt"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/price_function/coinbase_pro"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/constants/exchange_common"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/price_function/coinbase_pro"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
 )
 
 // Exchange used for testing purposes. We'll reuse the CoinbasePro price function.

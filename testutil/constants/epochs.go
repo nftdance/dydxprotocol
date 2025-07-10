@@ -3,7 +3,7 @@ package constants
 import (
 	"time"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/epochs/types"
+	"github.com/nftdance/dydxprotocol/x/epochs/types"
 )
 
 var (

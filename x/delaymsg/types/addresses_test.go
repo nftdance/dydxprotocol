@@ -1,7 +1,7 @@
 package types_test
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
+	"github.com/nftdance/dydxprotocol/x/delaymsg/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

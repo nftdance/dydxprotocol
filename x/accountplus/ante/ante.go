@@ -14,10 +14,10 @@ import (
 
 	txsigning "cosmossdk.io/x/tx/signing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib/metrics"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/accountplus/types"
+	"github.com/nftdance/dydxprotocol/lib/metrics"
+	"github.com/nftdance/dydxprotocol/x/accountplus/keeper"
+	"github.com/nftdance/dydxprotocol/x/accountplus/lib"
+	"github.com/nftdance/dydxprotocol/x/accountplus/types"
 )
 
 // AuthenticatorDecorator is responsible for processing authentication logic

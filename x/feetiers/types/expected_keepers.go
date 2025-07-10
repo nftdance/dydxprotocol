@@ -2,9 +2,9 @@ package types
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	affiliatetypes "github.com/dydxprotocol/v4-chain/protocol/x/affiliates/types"
-	revsharetypes "github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
-	statstypes "github.com/dydxprotocol/v4-chain/protocol/x/stats/types"
+	affiliatetypes "github.com/nftdance/dydxprotocol/x/affiliates/types"
+	revsharetypes "github.com/nftdance/dydxprotocol/x/revshare/types"
+	statstypes "github.com/nftdance/dydxprotocol/x/stats/types"
 )
 
 // StatsKeeper defines the expected stats keeper

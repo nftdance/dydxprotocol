@@ -13,10 +13,10 @@ import (
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	bridgetypes "github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
-	perpetualstypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	bridgetypes "github.com/nftdance/dydxprotocol/x/bridge/types"
+	perpetualstypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 func createAccountKeeper(

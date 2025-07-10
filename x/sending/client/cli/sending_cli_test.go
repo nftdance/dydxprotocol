@@ -6,14 +6,14 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	appconstants "github.com/dydxprotocol/v4-chain/protocol/app/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/network"
-	epochstypes "github.com/dydxprotocol/v4-chain/protocol/x/epochs/types"
-	testutil "github.com/dydxprotocol/v4-chain/protocol/x/sending/client/testutil"
-	"github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
-	sa_testutil "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/client/testutil"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	appconstants "github.com/nftdance/dydxprotocol/app/constants"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/network"
+	epochstypes "github.com/nftdance/dydxprotocol/x/epochs/types"
+	testutil "github.com/nftdance/dydxprotocol/x/sending/client/testutil"
+	"github.com/nftdance/dydxprotocol/x/sending/types"
+	sa_testutil "github.com/nftdance/dydxprotocol/x/subaccounts/client/testutil"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	"github.com/stretchr/testify/suite"
 )
 

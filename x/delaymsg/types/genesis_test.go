@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/delaymsg"
-	"github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
+	"github.com/nftdance/dydxprotocol/testutil/delaymsg"
+	"github.com/nftdance/dydxprotocol/x/delaymsg/types"
 	"github.com/stretchr/testify/require"
 )
 

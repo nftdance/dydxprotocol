@@ -1,7 +1,7 @@
 package v_5_2_0
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/app/upgrades"
+	"github.com/nftdance/dydxprotocol/app/upgrades"
 )
 
 const (

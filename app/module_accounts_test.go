@@ -12,13 +12,13 @@ import (
 	icatypes "github.com/cosmos/ibc-go/v8/modules/apps/27-interchain-accounts/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	marketmapmoduletypes "github.com/dydxprotocol/slinky/x/marketmap/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app"
-	bridgemoduletypes "github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
-	perpetualsmoduletypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	rewardsmoduletypes "github.com/dydxprotocol/v4-chain/protocol/x/rewards/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
-	vaultmoduletypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
-	vestmoduletypes "github.com/dydxprotocol/v4-chain/protocol/x/vest/types"
+	"github.com/nftdance/dydxprotocol/app"
+	bridgemoduletypes "github.com/nftdance/dydxprotocol/x/bridge/types"
+	perpetualsmoduletypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	rewardsmoduletypes "github.com/nftdance/dydxprotocol/x/rewards/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
+	vaultmoduletypes "github.com/nftdance/dydxprotocol/x/vault/types"
+	vestmoduletypes "github.com/nftdance/dydxprotocol/x/vest/types"
 )
 
 func TestModuleAccountsToAddresses(t *testing.T) {

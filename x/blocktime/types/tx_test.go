@@ -4,8 +4,8 @@ import (
 	"testing"
 	time "time"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/x/blocktime/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/x/blocktime/types"
 	"github.com/stretchr/testify/require"
 )
 

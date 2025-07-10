@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	libtime "github.com/dydxprotocol/v4-chain/protocol/lib/time"
+	libtime "github.com/nftdance/dydxprotocol/lib/time"
 )
 
 const (

@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
-	testApp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	testApp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

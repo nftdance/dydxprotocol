@@ -10,10 +10,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/app/msgs"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/encoding"
-	testmsgs "github.com/dydxprotocol/v4-chain/protocol/testutil/msgs"
+	"github.com/nftdance/dydxprotocol/app/msgs"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/testutil/encoding"
+	testmsgs "github.com/nftdance/dydxprotocol/testutil/msgs"
 	"github.com/stretchr/testify/require"
 )
 

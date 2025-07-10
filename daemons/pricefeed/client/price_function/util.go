@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/types"
+	"github.com/nftdance/dydxprotocol/lib"
 	"github.com/go-playground/validator/v10"
 )
 

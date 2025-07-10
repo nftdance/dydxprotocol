@@ -5,14 +5,14 @@ package mocks
 import (
 	big "math/big"
 
-	indexer_manager "github.com/dydxprotocol/v4-chain/protocol/indexer/indexer_manager"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	indexer_manager "github.com/nftdance/dydxprotocol/indexer/indexer_manager"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
 
 	log "cosmossdk.io/log"
 
 	mock "github.com/stretchr/testify/mock"
 
-	subaccountstypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	subaccountstypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

@@ -1,6 +1,6 @@
 package indexer_manager
 
-import "github.com/dydxprotocol/v4-chain/protocol/indexer/msgsender"
+import "github.com/nftdance/dydxprotocol/indexer/msgsender"
 
 func NewIndexerEventManagerNoop() IndexerEventManager {
 	return NewIndexerEventManager(

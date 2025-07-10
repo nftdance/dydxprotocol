@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/dydxprotocol/slinky/service/servers/oracle/types"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/slinky/client"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
+	"github.com/nftdance/dydxprotocol/daemons/slinky/client"
+	"github.com/nftdance/dydxprotocol/mocks"
 )
 
 func TestSidecarVersionChecker(t *testing.T) {

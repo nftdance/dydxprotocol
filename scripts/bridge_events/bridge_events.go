@@ -14,11 +14,11 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/app"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	libeth "github.com/dydxprotocol/v4-chain/protocol/lib/eth"
-	bridgetypes "github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
+	"github.com/nftdance/dydxprotocol/app"
+	"github.com/nftdance/dydxprotocol/daemons/constants"
+	"github.com/nftdance/dydxprotocol/lib"
+	libeth "github.com/nftdance/dydxprotocol/lib/eth"
+	bridgetypes "github.com/nftdance/dydxprotocol/x/bridge/types"
 
 	eth "github.com/ethereum/go-ethereum"
 	ethcommon "github.com/ethereum/go-ethereum/common"

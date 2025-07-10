@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	"github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/types"
-	ratelimitutil "github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/util"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	"github.com/nftdance/dydxprotocol/x/ratelimit/types"
+	ratelimitutil "github.com/nftdance/dydxprotocol/x/ratelimit/util"
 	"github.com/stretchr/testify/require"
 )
 

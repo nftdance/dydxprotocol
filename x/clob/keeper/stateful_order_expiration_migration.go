@@ -6,7 +6,7 @@ import (
 
 	"cosmossdk.io/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
 )
 
 // UnsafeMigrateOrderExpirationState migrates order expiration state from slices based on time to

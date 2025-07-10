@@ -7,7 +7,7 @@ import (
 	"github.com/dydxprotocol/slinky/pkg/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib/slinky"
+	"github.com/nftdance/dydxprotocol/lib/slinky"
 )
 
 func TestMarketPairToCurrencyPair(t *testing.T) {

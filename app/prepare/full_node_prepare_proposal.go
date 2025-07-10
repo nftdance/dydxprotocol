@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib/metrics"
+	"github.com/nftdance/dydxprotocol/lib/metrics"
 )
 
 // FullNodePrepareProposalHandler returns an EmptyResponse and logs an error

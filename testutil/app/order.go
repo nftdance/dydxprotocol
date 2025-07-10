@@ -8,13 +8,13 @@ import (
 
 	"github.com/cometbft/cometbft/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	clobtest "github.com/dydxprotocol/v4-chain/protocol/testutil/clob"
-	perptest "github.com/dydxprotocol/v4-chain/protocol/testutil/perpetuals"
-	pricestest "github.com/dydxprotocol/v4-chain/protocol/testutil/prices"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/app"
+	"github.com/nftdance/dydxprotocol/lib"
+	clobtest "github.com/nftdance/dydxprotocol/testutil/clob"
+	perptest "github.com/nftdance/dydxprotocol/testutil/perpetuals"
+	pricestest "github.com/nftdance/dydxprotocol/testutil/prices"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // Subsitute quantums and subticks with value converted from human readable price and amount.

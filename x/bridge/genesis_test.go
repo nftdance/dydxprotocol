@@ -3,9 +3,9 @@ package bridge_test
 import (
 	"testing"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/x/bridge"
-	"github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/x/bridge"
+	"github.com/nftdance/dydxprotocol/x/bridge/types"
 	"github.com/stretchr/testify/require"
 )
 

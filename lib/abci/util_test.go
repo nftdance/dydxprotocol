@@ -5,8 +5,8 @@ import (
 	"fmt"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/abci"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
+	"github.com/nftdance/dydxprotocol/lib/abci"
+	"github.com/nftdance/dydxprotocol/mocks"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

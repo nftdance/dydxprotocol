@@ -3,9 +3,9 @@ package ratelimit_test
 import (
 	"testing"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/x/ratelimit"
-	"github.com/dydxprotocol/v4-chain/protocol/x/ratelimit/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/x/ratelimit"
+	"github.com/nftdance/dydxprotocol/x/ratelimit/types"
 	"github.com/stretchr/testify/require"
 )
 

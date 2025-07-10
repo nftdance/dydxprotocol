@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/lib/metrics"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/lib/metrics"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	gometrics "github.com/hashicorp/go-metrics"
 )
 

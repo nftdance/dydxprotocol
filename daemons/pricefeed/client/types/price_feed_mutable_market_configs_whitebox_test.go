@@ -3,8 +3,8 @@ package types
 import (
 	"errors"
 	"fmt"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/daemons/pricefeed"
-	prices_types "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/testutil/daemons/pricefeed"
+	prices_types "github.com/nftdance/dydxprotocol/x/prices/types"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/maps"
 	"testing"

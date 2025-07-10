@@ -3,11 +3,11 @@ package memclob
 import (
 	"testing"
 
-	clobtest "github.com/dydxprotocol/v4-chain/protocol/testutil/clob"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	memclobtestutil "github.com/dydxprotocol/v4-chain/protocol/testutil/memclob"
-	sdktest "github.com/dydxprotocol/v4-chain/protocol/testutil/sdk"
-	"github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
+	clobtest "github.com/nftdance/dydxprotocol/testutil/clob"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	memclobtestutil "github.com/nftdance/dydxprotocol/testutil/memclob"
+	sdktest "github.com/nftdance/dydxprotocol/testutil/sdk"
+	"github.com/nftdance/dydxprotocol/x/clob/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,8 +7,8 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/sim_helpers"
-	"github.com/dydxprotocol/v4-chain/protocol/x/epochs/types"
+	"github.com/nftdance/dydxprotocol/testutil/sim_helpers"
+	"github.com/nftdance/dydxprotocol/x/epochs/types"
 )
 
 const (

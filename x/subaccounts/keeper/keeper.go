@@ -3,14 +3,14 @@ package keeper
 import (
 	"fmt"
 
-	streamingtypes "github.com/dydxprotocol/v4-chain/protocol/streaming/types"
+	streamingtypes "github.com/nftdance/dydxprotocol/streaming/types"
 
 	"cosmossdk.io/log"
 	storetypes "cosmossdk.io/store/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/indexer_manager"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/indexer/indexer_manager"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 type (

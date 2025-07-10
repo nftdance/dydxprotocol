@@ -3,7 +3,7 @@ package types
 import (
 	"math/big"
 
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	"github.com/zyedidia/generic/list"
 )
 

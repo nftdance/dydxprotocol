@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/dydxprotocol/v4-chain/protocol/x/govplus/types"
+	"github.com/nftdance/dydxprotocol/x/govplus/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

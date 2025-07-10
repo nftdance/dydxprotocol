@@ -2,12 +2,12 @@ package keeper_test
 
 import (
 	"context"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 	"testing"
 
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/x/feetiers/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/feetiers/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/x/feetiers/keeper"
+	"github.com/nftdance/dydxprotocol/x/feetiers/types"
 	"github.com/stretchr/testify/require"
 )
 

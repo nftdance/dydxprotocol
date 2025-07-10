@@ -8,7 +8,7 @@ import (
 	"cosmossdk.io/log"
 	"github.com/Shopify/sarama"
 	"github.com/Shopify/sarama/mocks"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer"
+	"github.com/nftdance/dydxprotocol/indexer"
 	"github.com/stretchr/testify/require"
 )
 

@@ -2,8 +2,8 @@ package vest
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vest/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vest/types"
+	"github.com/nftdance/dydxprotocol/x/vest/keeper"
+	"github.com/nftdance/dydxprotocol/x/vest/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis state.

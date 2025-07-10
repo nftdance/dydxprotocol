@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // PricesKeeper defines the expected Prices keeper used for `PrepareProposal`.

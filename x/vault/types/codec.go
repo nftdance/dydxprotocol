@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/msgservice"
 	"github.com/cosmos/gogoproto/proto"
-	"github.com/dydxprotocol/v4-chain/protocol/app/module"
+	"github.com/nftdance/dydxprotocol/app/module"
 )
 
 func RegisterCodec(cdc *codec.LegacyAmino) {}

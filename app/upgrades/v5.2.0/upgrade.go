@@ -7,9 +7,9 @@ import (
 	upgradetypes "cosmossdk.io/x/upgrade/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	vaultkeeper "github.com/dydxprotocol/v4-chain/protocol/x/vault/keeper"
+	"github.com/nftdance/dydxprotocol/lib"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	vaultkeeper "github.com/nftdance/dydxprotocol/x/vault/keeper"
 )
 
 func CreateUpgradeHandler(

@@ -2,7 +2,7 @@ package prices
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // PriceUpdateGenerator is an interface to abstract the logic of retrieving a

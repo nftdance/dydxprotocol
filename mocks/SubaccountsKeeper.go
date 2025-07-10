@@ -5,12 +5,12 @@ package mocks
 import (
 	big "math/big"
 
-	margin "github.com/dydxprotocol/v4-chain/protocol/lib/margin"
+	margin "github.com/nftdance/dydxprotocol/lib/margin"
 	mock "github.com/stretchr/testify/mock"
 
 	rand "math/rand"
 
-	subaccountstypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	subaccountstypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

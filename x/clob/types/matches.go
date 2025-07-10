@@ -3,8 +3,8 @@ package types
 import (
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // MakerFillWithOrder represents the filled amount of a matched maker order,

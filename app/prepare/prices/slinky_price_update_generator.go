@@ -8,7 +8,7 @@ import (
 	"github.com/dydxprotocol/slinky/abci/strategies/codec"
 	"github.com/dydxprotocol/slinky/abci/strategies/currencypair"
 	"github.com/dydxprotocol/slinky/abci/ve"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 // SlinkyPriceUpdateGenerator is an implementation of the PriceUpdateGenerator interface. This implementation

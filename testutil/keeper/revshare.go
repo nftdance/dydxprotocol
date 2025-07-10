@@ -6,15 +6,15 @@ import (
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	affiliateskeeper "github.com/dydxprotocol/v4-chain/protocol/x/affiliates/keeper"
-	feetierskeeper "github.com/dydxprotocol/v4-chain/protocol/x/feetiers/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	affiliateskeeper "github.com/nftdance/dydxprotocol/x/affiliates/keeper"
+	feetierskeeper "github.com/nftdance/dydxprotocol/x/feetiers/keeper"
+	"github.com/nftdance/dydxprotocol/x/revshare/types"
 
 	storetypes "cosmossdk.io/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	keeper "github.com/dydxprotocol/v4-chain/protocol/x/revshare/keeper"
+	"github.com/nftdance/dydxprotocol/mocks"
+	keeper "github.com/nftdance/dydxprotocol/x/revshare/keeper"
 )
 
 func RevShareKeepers(t testing.TB) (

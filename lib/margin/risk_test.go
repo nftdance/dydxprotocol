@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib/margin"
+	"github.com/nftdance/dydxprotocol/lib/margin"
 	"github.com/stretchr/testify/require"
 )
 

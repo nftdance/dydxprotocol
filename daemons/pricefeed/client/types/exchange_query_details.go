@@ -3,7 +3,7 @@ package types
 import (
 	"net/http"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/types"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/types"
 )
 
 // ExchangeQueryDetails represents the information needed to query a specific exchange.

@@ -3,9 +3,9 @@ package vault
 import (
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 // SkewAntiderivative returns the antiderivative of skew given a vault's skew

@@ -4,9 +4,9 @@ import (
 	"runtime/debug"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/abci"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/log"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/keeper"
+	"github.com/nftdance/dydxprotocol/lib/abci"
+	"github.com/nftdance/dydxprotocol/lib/log"
+	"github.com/nftdance/dydxprotocol/x/vault/keeper"
 )
 
 func BeginBlocker(

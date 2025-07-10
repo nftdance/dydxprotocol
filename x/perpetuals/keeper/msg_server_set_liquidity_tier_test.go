@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	keepertest "github.com/dydxprotocol/v4-chain/protocol/testutil/keeper"
-	lttest "github.com/dydxprotocol/v4-chain/protocol/testutil/liquidity_tier"
-	perpkeeper "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	keepertest "github.com/nftdance/dydxprotocol/testutil/keeper"
+	lttest "github.com/nftdance/dydxprotocol/testutil/liquidity_tier"
+	perpkeeper "github.com/nftdance/dydxprotocol/x/perpetuals/keeper"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/types"
 	"github.com/stretchr/testify/require"
 )
 

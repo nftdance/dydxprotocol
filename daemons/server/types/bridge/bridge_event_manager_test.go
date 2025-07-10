@@ -3,10 +3,10 @@ package types_test
 import (
 	"testing"
 
-	bdtypes "github.com/dydxprotocol/v4-chain/protocol/daemons/server/types/bridge"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
+	bdtypes "github.com/nftdance/dydxprotocol/daemons/server/types/bridge"
+	"github.com/nftdance/dydxprotocol/mocks"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/x/bridge/types"
 	"github.com/stretchr/testify/require"
 )
 

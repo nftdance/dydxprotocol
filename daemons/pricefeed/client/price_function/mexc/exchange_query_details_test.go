@@ -3,7 +3,7 @@ package mexc_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/price_function/mexc"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/price_function/mexc"
 	"github.com/stretchr/testify/require"
 )
 

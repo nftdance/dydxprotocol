@@ -3,7 +3,7 @@ package crypto_com_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/price_function/crypto_com"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/price_function/crypto_com"
 	"github.com/stretchr/testify/require"
 )
 

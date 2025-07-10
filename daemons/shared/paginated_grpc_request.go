@@ -3,7 +3,7 @@ package shared
 import (
 	"context"
 	"github.com/cosmos/cosmos-sdk/types/query"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 const (

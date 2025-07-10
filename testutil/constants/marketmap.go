@@ -5,7 +5,7 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	slinkytypes "github.com/dydxprotocol/slinky/pkg/types"
 	marketmapmoduletypes "github.com/dydxprotocol/slinky/x/marketmap/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/slinky"
+	"github.com/nftdance/dydxprotocol/lib/slinky"
 )
 
 var GovAuthority = authtypes.NewModuleAddress(govtypes.ModuleName).String()

@@ -3,8 +3,8 @@ package events
 import (
 	"testing"
 
-	v1types "github.com/dydxprotocol/v4-chain/protocol/indexer/protocol/v1/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	v1types "github.com/nftdance/dydxprotocol/indexer/protocol/v1/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
 
 	"github.com/stretchr/testify/require"
 )

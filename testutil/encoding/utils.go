@@ -3,7 +3,7 @@ package encoding
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/ante"
+	"github.com/nftdance/dydxprotocol/testutil/ante"
 
 	feegrantmodule "cosmossdk.io/x/feegrant/module"
 	"cosmossdk.io/x/upgrade"
@@ -28,16 +28,16 @@ import (
 	"github.com/cosmos/ibc-go/v8/modules/apps/transfer"
 	ibc "github.com/cosmos/ibc-go/v8/modules/core"
 	ibctm "github.com/cosmos/ibc-go/v8/modules/light-clients/07-tendermint"
-	custommodule "github.com/dydxprotocol/v4-chain/protocol/app/module"
-	bridgemodule "github.com/dydxprotocol/v4-chain/protocol/x/bridge"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/feetiers"
-	perpetualtypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
-	sendingtypes "github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
-	subaccountsmodule "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts"
-	vaultmodule "github.com/dydxprotocol/v4-chain/protocol/x/vault"
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	custommodule "github.com/nftdance/dydxprotocol/app/module"
+	bridgemodule "github.com/nftdance/dydxprotocol/x/bridge"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	"github.com/nftdance/dydxprotocol/x/feetiers"
+	perpetualtypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
+	sendingtypes "github.com/nftdance/dydxprotocol/x/sending/types"
+	subaccountsmodule "github.com/nftdance/dydxprotocol/x/subaccounts"
+	vaultmodule "github.com/nftdance/dydxprotocol/x/vault"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -2,7 +2,7 @@ package perpetuals
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/x/perpetuals/types"
 )
 
 // EndBlocker executes all ABCI EndBlock logic respective to the perpetuals module.

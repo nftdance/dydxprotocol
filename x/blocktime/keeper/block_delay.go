@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/blocktime/types"
+	"github.com/nftdance/dydxprotocol/x/blocktime/types"
 )
 
 func (k Keeper) GetSynchronyParams(ctx sdk.Context) types.SynchronyParams {

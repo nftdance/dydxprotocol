@@ -2,9 +2,9 @@ package v_5_0_0
 
 import (
 	store "cosmossdk.io/store/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app/upgrades"
+	"github.com/nftdance/dydxprotocol/app/upgrades"
 
-	vaulttypes "github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	vaulttypes "github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 const (

@@ -6,11 +6,11 @@ import (
 
 	"cosmossdk.io/log"
 
-	pricefeed_types "github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/types"
+	pricefeed_types "github.com/nftdance/dydxprotocol/daemons/pricefeed/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/api"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/api"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/x/prices/types"
 	"github.com/stretchr/testify/require"
 )
 

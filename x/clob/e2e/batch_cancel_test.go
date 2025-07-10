@@ -7,15 +7,15 @@ import (
 	"github.com/cometbft/cometbft/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dydxprotocol/v4-chain/protocol/indexer"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/msgsender"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/off_chain_updates"
-	ocutypes "github.com/dydxprotocol/v4-chain/protocol/indexer/off_chain_updates/types"
-	indexersharedtypes "github.com/dydxprotocol/v4-chain/protocol/indexer/shared/types"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/indexer"
+	"github.com/nftdance/dydxprotocol/indexer/msgsender"
+	"github.com/nftdance/dydxprotocol/indexer/off_chain_updates"
+	ocutypes "github.com/nftdance/dydxprotocol/indexer/off_chain_updates/types"
+	indexersharedtypes "github.com/nftdance/dydxprotocol/indexer/shared/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // These tests are the same as the e2e tests for single order cancellations.

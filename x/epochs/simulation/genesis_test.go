@@ -3,16 +3,16 @@ package simulation_test
 import (
 	"encoding/json"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	v4module "github.com/dydxprotocol/v4-chain/protocol/app/module"
+	v4module "github.com/nftdance/dydxprotocol/app/module"
 	"testing"
 
 	sdkmath "cosmossdk.io/math"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	testutil_rand "github.com/dydxprotocol/v4-chain/protocol/testutil/rand"
-	"github.com/dydxprotocol/v4-chain/protocol/x/epochs/simulation"
-	"github.com/dydxprotocol/v4-chain/protocol/x/epochs/types"
+	testutil_rand "github.com/nftdance/dydxprotocol/testutil/rand"
+	"github.com/nftdance/dydxprotocol/x/epochs/simulation"
+	"github.com/nftdance/dydxprotocol/x/epochs/types"
 	"github.com/stretchr/testify/require"
 )
 

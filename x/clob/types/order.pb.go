@@ -9,7 +9,7 @@ import (
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
-	types "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	types "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 	io "io"
 	math "math"
 	math_bits "math/bits"

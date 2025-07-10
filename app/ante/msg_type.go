@@ -4,8 +4,8 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	libante "github.com/dydxprotocol/v4-chain/protocol/lib/ante"
+	"github.com/nftdance/dydxprotocol/lib"
+	libante "github.com/nftdance/dydxprotocol/lib/ante"
 )
 
 // ValidateMsgTypeDecorator checks that the tx has the expected message types.

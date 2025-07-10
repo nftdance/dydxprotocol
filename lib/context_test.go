@@ -1,7 +1,7 @@
 package lib_test
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

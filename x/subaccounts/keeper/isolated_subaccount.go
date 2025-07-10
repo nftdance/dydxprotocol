@@ -6,9 +6,9 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	"github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // checkIsolatedSubaccountConstaints will validate all `updates` to the relevant subaccounts against

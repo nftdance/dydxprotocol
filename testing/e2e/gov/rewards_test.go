@@ -8,8 +8,8 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	govtypesv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	rewardstypes "github.com/dydxprotocol/v4-chain/protocol/x/rewards/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	rewardstypes "github.com/nftdance/dydxprotocol/x/rewards/types"
 	"github.com/stretchr/testify/require"
 )
 

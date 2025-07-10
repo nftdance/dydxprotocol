@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"testing"
 
-	keepertest "github.com/dydxprotocol/v4-chain/protocol/testutil/keeper"
+	keepertest "github.com/nftdance/dydxprotocol/testutil/keeper"
 	"github.com/stretchr/testify/require"
 )
 

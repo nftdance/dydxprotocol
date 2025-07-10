@@ -1,7 +1,7 @@
 package types_test
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/x/bridge/types"
+	"github.com/nftdance/dydxprotocol/x/bridge/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

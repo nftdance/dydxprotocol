@@ -3,11 +3,11 @@ package events
 import (
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	v1 "github.com/dydxprotocol/v4-chain/protocol/indexer/protocol/v1"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	salib "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/lib"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	v1 "github.com/nftdance/dydxprotocol/indexer/protocol/v1"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	salib "github.com/nftdance/dydxprotocol/x/subaccounts/lib"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 // NewSubaccountUpdateEvent creates a SubaccountUpdateEvent representing a subaccount update

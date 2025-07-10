@@ -1,7 +1,7 @@
 package constants
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/x/feetiers/types"
+	"github.com/nftdance/dydxprotocol/x/feetiers/types"
 )
 
 var PerpetualFeeParams = types.PerpetualFeeParams{

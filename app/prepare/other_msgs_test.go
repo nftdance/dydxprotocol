@@ -3,10 +3,10 @@ package prepare_test
 import (
 	"testing"
 
-	"github.com/dydxprotocol/v4-chain/protocol/app/prepare"
-	testApp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/encoding"
+	"github.com/nftdance/dydxprotocol/app/prepare"
+	testApp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/encoding"
 	"github.com/stretchr/testify/require"
 )
 

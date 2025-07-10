@@ -7,10 +7,10 @@ import (
 	storetypes "cosmossdk.io/store/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	affiliateskeeper "github.com/dydxprotocol/v4-chain/protocol/x/affiliates/keeper"
-	feetierskeeper "github.com/dydxprotocol/v4-chain/protocol/x/feetiers/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/revshare/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	affiliateskeeper "github.com/nftdance/dydxprotocol/x/affiliates/keeper"
+	feetierskeeper "github.com/nftdance/dydxprotocol/x/feetiers/keeper"
+	"github.com/nftdance/dydxprotocol/x/revshare/types"
 )
 
 type (

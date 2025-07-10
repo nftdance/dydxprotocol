@@ -2,7 +2,7 @@ package lib_test
 
 import (
 	"bytes"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 	"math/rand"
 	"testing"
 

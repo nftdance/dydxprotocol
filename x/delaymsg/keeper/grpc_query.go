@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/x/delaymsg/types"
 	"google.golang.org/grpc/status"
 )
 

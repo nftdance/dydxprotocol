@@ -8,8 +8,8 @@ import (
 	"cosmossdk.io/store/prefix"
 	storetypes "cosmossdk.io/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	delaymsgtypes "github.com/dydxprotocol/v4-chain/protocol/x/delaymsg/types"
-	"github.com/dydxprotocol/v4-chain/protocol/x/vault/types"
+	delaymsgtypes "github.com/nftdance/dydxprotocol/x/delaymsg/types"
+	"github.com/nftdance/dydxprotocol/x/vault/types"
 )
 
 // GetTotalShares gets total shares.

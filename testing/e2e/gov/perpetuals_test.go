@@ -11,12 +11,12 @@ import (
 	govtypesv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 	slinkytypes "github.com/dydxprotocol/slinky/pkg/types"
 	marketmaptypes "github.com/dydxprotocol/slinky/x/marketmap/types"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	lttest "github.com/dydxprotocol/v4-chain/protocol/testutil/liquidity_tier"
-	pricestest "github.com/dydxprotocol/v4-chain/protocol/testutil/prices"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	perptypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	lttest "github.com/nftdance/dydxprotocol/testutil/liquidity_tier"
+	pricestest "github.com/nftdance/dydxprotocol/testutil/prices"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	perptypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 	"github.com/stretchr/testify/require"
 )
 

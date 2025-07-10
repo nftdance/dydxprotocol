@@ -4,10 +4,10 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app/config"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	clobtypes "github.com/dydxprotocol/v4-chain/protocol/x/clob/types"
-	sendingtypes "github.com/dydxprotocol/v4-chain/protocol/x/sending/types"
+	"github.com/nftdance/dydxprotocol/app/config"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
+	clobtypes "github.com/nftdance/dydxprotocol/x/clob/types"
+	sendingtypes "github.com/nftdance/dydxprotocol/x/sending/types"
 )
 
 func init() {

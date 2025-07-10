@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/client/types"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/client/types"
 )
 
 // ExchangeIdMarketPriceTimestamp contains an `ExchangeId` and an associated

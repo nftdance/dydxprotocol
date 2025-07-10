@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	cli_util "github.com/dydxprotocol/v4-chain/protocol/testutil/prices/cli"
+	cli_util "github.com/nftdance/dydxprotocol/testutil/prices/cli"
 
 	tmcli "github.com/cometbft/cometbft/libs/cli"
 	"github.com/cosmos/cosmos-sdk/client/flags"
@@ -15,8 +15,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/dydxprotocol/v4-chain/protocol/x/prices/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/x/prices/client/cli"
+	"github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 func TestShowMarketParam(t *testing.T) {

@@ -2,8 +2,8 @@ package constants
 
 import (
 	"github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app/config"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/app/config"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 func init() {

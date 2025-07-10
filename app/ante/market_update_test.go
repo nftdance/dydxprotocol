@@ -18,15 +18,15 @@ import (
 	mmtypes "github.com/dydxprotocol/slinky/x/marketmap/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dydxprotocol/v4-chain/protocol/app/ante"
-	"github.com/dydxprotocol/v4-chain/protocol/dtypes"
-	slinkylib "github.com/dydxprotocol/v4-chain/protocol/lib/slinky"
-	testante "github.com/dydxprotocol/v4-chain/protocol/testutil/ante"
-	testapp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
-	assets "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
-	perpetualtypes "github.com/dydxprotocol/v4-chain/protocol/x/perpetuals/types"
-	prices_types "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	"github.com/nftdance/dydxprotocol/app/ante"
+	"github.com/nftdance/dydxprotocol/dtypes"
+	slinkylib "github.com/nftdance/dydxprotocol/lib/slinky"
+	testante "github.com/nftdance/dydxprotocol/testutil/ante"
+	testapp "github.com/nftdance/dydxprotocol/testutil/app"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
+	assets "github.com/nftdance/dydxprotocol/x/assets/types"
+	perpetualtypes "github.com/nftdance/dydxprotocol/x/perpetuals/types"
+	prices_types "github.com/nftdance/dydxprotocol/x/prices/types"
 )
 
 func TestIsMarketUpdateTx(t *testing.T) {

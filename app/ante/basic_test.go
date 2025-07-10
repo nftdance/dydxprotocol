@@ -2,7 +2,7 @@ package ante_test
 
 import (
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/dydxprotocol/v4-chain/protocol/testutil/constants"
+	"github.com/nftdance/dydxprotocol/testutil/constants"
 	"testing"
 
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
@@ -11,8 +11,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 
-	testante "github.com/dydxprotocol/v4-chain/protocol/testutil/ante"
-	pricestypes "github.com/dydxprotocol/v4-chain/protocol/x/prices/types"
+	testante "github.com/nftdance/dydxprotocol/testutil/ante"
+	pricestypes "github.com/nftdance/dydxprotocol/x/prices/types"
 
 	"github.com/stretchr/testify/require"
 )

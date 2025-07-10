@@ -7,7 +7,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/lib/metrics"
+	"github.com/nftdance/dydxprotocol/lib/metrics"
 )
 
 const TypeMsgCancelOrder = "cancel_order"

@@ -3,7 +3,7 @@ package lib_test
 import (
 	"errors"
 	"fmt"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 	"math"
 	"math/big"
 	"testing"

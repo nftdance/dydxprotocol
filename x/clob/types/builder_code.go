@@ -3,7 +3,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
+	"github.com/nftdance/dydxprotocol/lib"
 )
 
 // GetBuilderFee returns the fee amount for a builder given a fill amount.

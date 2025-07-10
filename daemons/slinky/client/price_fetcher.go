@@ -9,8 +9,8 @@ import (
 	oracleclient "github.com/dydxprotocol/slinky/service/clients/oracle"
 	"github.com/dydxprotocol/slinky/service/servers/oracle/types"
 
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/pricefeed/api"
-	pricefeedtypes "github.com/dydxprotocol/v4-chain/protocol/daemons/server/types/pricefeed"
+	"github.com/nftdance/dydxprotocol/daemons/pricefeed/api"
+	pricefeedtypes "github.com/nftdance/dydxprotocol/daemons/server/types/pricefeed"
 )
 
 // PriceFetcher is responsible for pulling prices from the slinky sidecar and sending them to the pricefeed server.

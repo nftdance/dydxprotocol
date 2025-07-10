@@ -15,10 +15,10 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/dydxprotocol/v4-chain/protocol/lib"
-	"github.com/dydxprotocol/v4-chain/protocol/x/stats/client/cli"
-	"github.com/dydxprotocol/v4-chain/protocol/x/stats/keeper"
-	"github.com/dydxprotocol/v4-chain/protocol/x/stats/types"
+	"github.com/nftdance/dydxprotocol/lib"
+	"github.com/nftdance/dydxprotocol/x/stats/client/cli"
+	"github.com/nftdance/dydxprotocol/x/stats/keeper"
+	"github.com/nftdance/dydxprotocol/x/stats/types"
 )
 
 var (

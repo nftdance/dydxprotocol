@@ -3,7 +3,7 @@ package types
 import (
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	assettypes "github.com/dydxprotocol/v4-chain/protocol/x/assets/types"
+	assettypes "github.com/nftdance/dydxprotocol/x/assets/types"
 )
 
 var _ sdk.Msg = &MsgCreateTransfer{}

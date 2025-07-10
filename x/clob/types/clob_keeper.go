@@ -5,8 +5,8 @@ import (
 
 	"cosmossdk.io/log"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/indexer/indexer_manager"
-	satypes "github.com/dydxprotocol/v4-chain/protocol/x/subaccounts/types"
+	"github.com/nftdance/dydxprotocol/indexer/indexer_manager"
+	satypes "github.com/nftdance/dydxprotocol/x/subaccounts/types"
 )
 
 type ClobKeeper interface {

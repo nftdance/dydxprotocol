@@ -3,9 +3,9 @@ package types_test
 import (
 	"cosmossdk.io/log"
 	"fmt"
-	"github.com/dydxprotocol/v4-chain/protocol/daemons/types"
-	libtime "github.com/dydxprotocol/v4-chain/protocol/lib/time"
-	"github.com/dydxprotocol/v4-chain/protocol/mocks"
+	"github.com/nftdance/dydxprotocol/daemons/types"
+	libtime "github.com/nftdance/dydxprotocol/lib/time"
+	"github.com/nftdance/dydxprotocol/mocks"
 	"github.com/stretchr/testify/require"
 	"testing"
 	"time"

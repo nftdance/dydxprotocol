@@ -6,9 +6,9 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
-	"github.com/dydxprotocol/v4-chain/protocol/app/flags"
-	testApp "github.com/dydxprotocol/v4-chain/protocol/testutil/app"
-	testlog "github.com/dydxprotocol/v4-chain/protocol/testutil/logger"
+	"github.com/nftdance/dydxprotocol/app/flags"
+	testApp "github.com/nftdance/dydxprotocol/testutil/app"
+	testlog "github.com/nftdance/dydxprotocol/testutil/logger"
 	gometrics "github.com/hashicorp/go-metrics"
 	"github.com/stretchr/testify/require"
 )
