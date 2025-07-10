@@ -1,4 +1,4 @@
-module github.com/dydxprotocol/v4-chain/protocol
+module github.com/nftdance/dydxprotocol
 
 go 1.23.1
 
